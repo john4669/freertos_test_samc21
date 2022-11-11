@@ -1,0 +1,2224 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+                              build/1_freertos_test/production/_ext/605666690/startup_xc32.o (__pic32c_data_initialization)
+/opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+                              /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o) (__pic32c_data_initialization_impl)
+/opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+                              build/1_freertos_test/production/_ext/605666690/startup_xc32.o (__libc_init_array)
+/opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(libc.o)
+                              /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o) (__progname_full)
+/opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+                              build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o (memcpy)
+/opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+                              build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o (memset)
+/opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__environ.o)
+                              /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o) (__environ)
+/opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                              build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o (__aeabi_uldivmod)
+/opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+                              /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                              /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+/opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+                              /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o) (__aeabi_llsr)
+/opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+                              /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o) (__aeabi_llsl)
+/opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+                              /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o) (__clzdi2)
+/opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+                              /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o) (__clzsi2)
+
+Microchip PIC32 Memory-Usage Report
+
+ROM Program-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.vectors                         0           0xbc         188   
+.text                         0xbc           0x20          32  App's exec code 
+.ARM.exidx                    0xdc            0x8           8   
+.text.xTaskCreate             0xe4          0x208         520   
+.dinit                       0x2ec          0x1e0         480   
+.text.xTaskIncrementTic      0x4cc          0x190         400   
+.text.SERCOM4_USART_Int      0x65c          0x16c         364   
+.text.xTaskResumeAll         0x7c8          0x164         356   
+.text.SERCOM4_USART_Ser      0x92c          0x138         312   
+.text.xQueueGenericSend      0xa64          0x108         264   
+.text                        0xb6c           0xe2         226  App's exec code 
+.text.EVSYS_Initialize       0xc4e            0x2           2   
+.text.xTaskRemoveFromEv      0xc50           0xe0         224   
+.text.DRV_USART_Initial      0xd30           0xdc         220   
+.text.vTaskSwitchContex      0xe0c           0xc4         196   
+.text.xQueueGenericRese      0xed0           0xb2         178   
+.text.Dummy_Handler          0xf82            0x2           2   
+.text.prvAddCurrentTask      0xf84           0x94         148   
+.text.pvPortMalloc          0x1018           0x90         144   
+.text.prvUnlockQueue        0x10a8           0x86         134   
+.text.NonMaskableInt_Ha     0x112e            0x2           2   
+.text.xTaskPriorityDisi     0x1130           0x80         128   
+.text.xQueueGenericCrea     0x11b0           0x7e         126   
+.text.HardFault_Handler     0x122e            0x2           2   
+.text.CLOCK_Initialize      0x1230           0x78         120   
+.text.prvCopyDataToQueu     0x12a8           0x76         118   
+.text.Dummy_App_Func        0x131e            0x2           2   
+.text.SERCOM4_USART_Wri     0x1320           0x74         116   
+.text.__pic32c_data_ini     0x1394           0x70         112   
+.text.prvIdleTask           0x1404           0x68         104   
+.text.vTaskStartSchedul     0x146c           0x5c          92   
+.text.xTaskCheckForTime     0x14c8           0x5c          92   
+.text.__libc_start_init     0x1524           0x5c          92   
+.text.xQueueGiveFromISR     0x1580           0x5a          90   
+.text.OSAL_SEM_Create       0x15da           0x5a          90   
+.text.SERCOM4_USART_Ini     0x1634           0x58          88   
+.text._DRV_USART_RX_PLI     0x168c           0x50          80   
+.text.SYS_Tasks             0x16dc           0x4c          76   
+.text                       0x1728           0x48          72  App's exec code 
+.text.SYS_Initialize        0x1770           0x48          72   
+.text.Reset_Handler         0x17b8           0x48          72   
+.text.APP_PRINT_Tasks       0x1800           0x48          72   
+.rodata                     0x1848            0x8           8  Read-only const 
+.text.xPortPendSVHandle     0x1850           0x44          68   
+.text.SERCOM4_USART_Rea     0x1894           0x44          68   
+.text                       0x18d8           0x40          64  App's exec code 
+.text.xPortStartSchedul     0x1918           0x3c          60   
+.text                       0x1954           0x3c          60  App's exec code 
+.text.PORT_Initialize       0x1990           0x38          56   
+.text.ulSetInterruptMas     0x19c8            0x8           8   
+.text.vPortStartFirstTa     0x19d0           0x34          52   
+.text.OSAL_SEM_PostISR      0x1a04           0x34          52   
+.text.APP_BLINK_Tasks       0x1a38           0x30          48   
+.text.vListInsert           0x1a68           0x2e          46   
+.text.vPortFree             0x1a96            0x2           2   
+.rodata.drvUsart0PlibAP     0x1a98           0x2c          44   
+.text.NVIC_Initialize       0x1ac4           0x2c          44   
+.text.prvResetNextTaskU     0x1af0           0x2c          44   
+.text.SERCOM4_USART_Err     0x1b1c           0x2c          44   
+.text.vPortSetupTimerIn     0x1b48           0x28          40   
+.text.SERCOM4_USART_Rea     0x1b70           0x28          40   
+.text.uxListRemove          0x1b98           0x26          38   
+.text.xQueueCreateCount     0x1bbe           0x26          38   
+.text.xQueueCreateMutex     0x1be4           0x24          36   
+.text.xPortSysTickHandl     0x1c08           0x24          36   
+.rodata.drvUsart0InitDa     0x1c2c           0x20          32   
+.text.vTaskDelay            0x1c4c           0x20          32   
+.text.pxPortInitialiseS     0x1c6c           0x20          32   
+.rodata                     0x1c8c           0x20          32  Read-only const 
+.text.vTaskPlaceOnEvent     0x1cac           0x1c          28   
+.text.OSAL_MUTEX_Create     0x1cc8           0x1a          26   
+.text.vPortSVCHandler       0x1ce2            0x2           2   
+.rodata.drvUsart0remapP     0x1ce4           0x18          24   
+.text.vTaskInternalSetT     0x1cfc           0x18          24   
+.text.vPortYield            0x1d14           0x18          24   
+.text.vPortEnterCritica     0x1d2c           0x18          24   
+.text                       0x1d44           0x48          72  App's exec code 
+.text.vListInitialise       0x1d8c           0x16          22   
+.text.__dummy               0x1da2            0x2           2   
+.rodata.drvUsart0remapD     0x1da4           0x14          20   
+.text.vPortExitCritical     0x1db8           0x14          20   
+.text.prvTaskExitError      0x1dcc           0x12          18   
+.text.memcpy                0x1dde           0x12          18   
+.text.vTaskSuspendAll       0x1df0           0x10          16   
+.text._DRV_USART_TX_PLI     0x1e00           0x10          16   
+.text.SERCOM4_USART_Err     0x1e10           0x10          16   
+.text.SERCOM4_USART_Tra     0x1e20           0x10          16   
+.text.SERCOM4_USART_Rea     0x1e30           0x10          16   
+.rodata                     0x1e40           0x10          16  Read-only const 
+.text.memset                0x1e50           0x10          16   
+.text.main                  0x1e60            0xe          14   
+.text.NVMCTRL_Initializ     0x1e70            0xc          12   
+.rodata.drvUsart0remapE     0x1e7c            0xc          12   
+.rodata.drvUsart0remapS     0x1e88            0xc          12   
+.text.BSP_Initialize        0x1e94            0xc          12   
+.text.vTaskMissedYield      0x1ea0            0xc          12   
+.text.APP_BLINK_Initial     0x1eac            0xc          12   
+.text.SERCOM4_USART_Wri     0x1eb8            0xc          12   
+.text.SERCOM4_USART_Wri     0x1ec4            0xc          12   
+.text.SERCOM4_USART_Wri     0x1ed0            0xc          12   
+.text.SERCOM4_USART_Rea     0x1edc            0xc          12   
+.text.SERCOM4_USART_Rea     0x1ee8            0xc          12   
+.text.APP_PRINT_Initial     0x1ef4            0xc          12   
+.text._APP_BLINK_Tasks      0x1f00            0x8           8   
+.text._APP_PRINT_Tasks      0x1f08            0x8           8   
+.text.__pic32c_data_ini     0x1f10            0x8           8   
+.text.vListInitialiseIt     0x1f18            0x6           6   
+.text.vClearInterruptMa     0x1f1e            0x6           6   
+.text.vApplicationStack     0x1f24            0x4           4   
+.text.vApplicationMallo     0x1f28            0x4           4   
+.text                       0x1f2c            0x4           4  App's exec code 
+      Total ROM used  :      0x1f2e        7982  3.0% of 0x40000
+        --------------------------------------------------------------------------
+         Total Program Memory used  :      0x1f2e        7982  3.0% of 0x40000
+        --------------------------------------------------------------------------
+
+
+RAM Data-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.bss.ucHeap             0x20000000         0x1000        4096   
+.bss.pxReadyTasksLists  0x20001000           0x64         100   
+.bss.gDrvUSARTObj       0x20001064           0x50          80   
+.bss                    0x200010b4           0x50          80  Uninitialized data 
+.bss.sercom4USARTObj    0x20001104           0x30          48   
+.bss                    0x20001134           0x1c          28  Uninitialized data 
+.bss.xDelayedTaskList1  0x20001150           0x14          20   
+.bss.xDelayedTaskList2  0x20001164           0x14          20   
+.bss.xPendingReadyList  0x20001178           0x14          20   
+.bss.xSuspendedTaskList 0x2000118c           0x14          20   
+.bss.xTasksWaitingTermi 0x200011a0           0x14          20   
+.bss.drvUSART0ClientObj 0x200011b4           0x10          16   
+.bss.sysObj             0x200011c4            0x4           4   
+.bss.pxCurrentTCB       0x200011c8            0x4           4   
+.bss.pxDelayedTaskList  0x200011cc            0x4           4   
+.bss.pxOverflowDelayedT 0x200011d0            0x4           4   
+.bss.uxCurrentNumberOfT 0x200011d4            0x4           4   
+.bss.uxDeletedTasksWait 0x200011d8            0x4           4   
+.bss.uxSchedulerSuspend 0x200011dc            0x4           4   
+.bss.uxTaskNumber       0x200011e0            0x4           4   
+.bss.uxTopReadyPriority 0x200011e4            0x4           4   
+.bss.xIdleTaskHandle    0x200011e8            0x4           4   
+.bss.xNextTaskUnblockTi 0x200011ec            0x4           4   
+.bss.xNumOfOverflows    0x200011f0            0x4           4   
+.bss.xPendedTicks       0x200011f4            0x4           4   
+.bss.xSchedulerRunning  0x200011f8            0x4           4   
+.bss.xTickCount         0x200011fc            0x4           4   
+.bss.xYieldPending      0x20001200            0x4           4   
+.bss.pucAlignedHeap.485 0x20001204            0x4           4   
+.bss.xNextFreeByte      0x20001208            0x4           4   
+.bss.xAPP_BLINK_Tasks   0x2000120c            0x4           4   
+.bss.xAPP_PRINT_Tasks   0x20001210            0x4           4   
+.bss                    0x20001214            0x8           8  Uninitialized data 
+.bss.app_printData      0x2000121c            0x1           1   
+.bss.app_blinkData      0x20001220            0x1           1   
+.data.uxTopUsedPriority 0x20001224            0x4           4   
+.data.uxCriticalNesting 0x20001228            0x4           4   
+         Total RAM used  :      0x1226        4646  14.2% of 0x8000
+        --------------------------------------------------------------------------
+            Total Data Memory used  :      0x1226        4646  14.2% of 0x8000
+        --------------------------------------------------------------------------
+
+
+Dynamic Data-Memory Reservation
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+heap                    0x20001230          0x200         512  Reserved for heap 
+stack                   0x20001448         0x6ba8       27560  Reserved for stack 
+
+        --------------------------------------------------------------------------
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+ .xc_stack_usage
+                0x00000000       0x26 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+ .data          0x00000000        0x4 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+ .xc_stack_usage
+                0x00000000       0x3c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_CacheInvalidate
+                0x00000000       0x10 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_RWWEEPROM_Read
+                0x00000000       0x10 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_RWWEEPROM_PageWrite
+                0x00000000       0x28 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_RWWEEPROM_RowErase
+                0x00000000       0x18 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_Read
+                0x00000000       0x10 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_PageBufferWrite
+                0x00000000       0x14 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_PageBufferCommit
+                0x00000000       0x30 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_PageWrite
+                0x00000000       0x28 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_RowErase
+                0x00000000       0x18 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_USER_ROW_PageWrite
+                0x00000000       0x38 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_USER_ROW_RowErase
+                0x00000000       0x2c build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_ErrorGet
+                0x00000000       0x18 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_IsBusy
+                0x00000000       0x14 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_RegionLock
+                0x00000000       0x14 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_RegionUnlock
+                0x00000000       0x14 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text.NVMCTRL_SecurityBitSet
+                0x00000000       0x10 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/1450708582/plib_evsys.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/1450708582/plib_evsys.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/1450708582/plib_evsys.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/initialization.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/initialization.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/initialization.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/interrupts.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/interrupts.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/interrupts.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/exceptions.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/exceptions.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/exceptions.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+ .text.read     0x00000000        0x6 build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+ .text.write    0x00000000        0x6 build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+ .debug_info    0x00000000      0x313 build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+ .debug_abbrev  0x00000000       0x96 build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+ .debug_loc     0x00000000       0x4a build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+ .debug_aranges
+                0x00000000       0x28 build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+ .debug_ranges  0x00000000       0x18 build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+ .debug_line    0x00000000       0xca build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+ .debug_str     0x00000000        0x0 build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+ .comment       0x00000000       0x2c build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+ .debug_frame   0x00000000       0x30 build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+ .ARM.attributes
+                0x00000000       0x2c build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .text.PORT_GroupRead
+                0x00000000        0x4 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .text.PORT_GroupWrite
+                0x00000000        0xc build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .text.PORT_GroupLatchRead
+                0x00000000        0x4 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .text.PORT_GroupSet
+                0x00000000        0x4 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .text.PORT_GroupClear
+                0x00000000        0x4 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .text.PORT_GroupToggle
+                0x00000000        0x4 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .text.PORT_GroupInputEnable
+                0x00000000        0x4 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .text.PORT_GroupOutputEnable
+                0x00000000        0x4 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .text.PORT_PinPeripheralFunctionConfig
+                0x00000000       0x46 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .text.PORT_PinGPIOConfig
+                0x00000000       0x1e build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/1452858068/plib_clock.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/1452858068/plib_clock.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/1452858068/plib_clock.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .text.NVIC_INT_Enable
+                0x00000000        0x8 build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .text.NVIC_INT_Disable
+                0x00000000       0x12 build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .text.NVIC_INT_Restore
+                0x00000000       0x14 build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/libc_syscalls.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/libc_syscalls.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/libc_syscalls.o
+ .text._exit    0x00000000        0x2 build/1_freertos_test/production/_ext/605666690/libc_syscalls.o
+ .debug_info    0x00000000      0x2fa build/1_freertos_test/production/_ext/605666690/libc_syscalls.o
+ .debug_abbrev  0x00000000       0x52 build/1_freertos_test/production/_ext/605666690/libc_syscalls.o
+ .debug_loc     0x00000000       0x15 build/1_freertos_test/production/_ext/605666690/libc_syscalls.o
+ .debug_aranges
+                0x00000000       0x20 build/1_freertos_test/production/_ext/605666690/libc_syscalls.o
+ .debug_ranges  0x00000000       0x10 build/1_freertos_test/production/_ext/605666690/libc_syscalls.o
+ .debug_line    0x00000000       0x63 build/1_freertos_test/production/_ext/605666690/libc_syscalls.o
+ .debug_str     0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/libc_syscalls.o
+ .comment       0x00000000       0x2c build/1_freertos_test/production/_ext/605666690/libc_syscalls.o
+ .debug_frame   0x00000000       0x20 build/1_freertos_test/production/_ext/605666690/libc_syscalls.o
+ .ARM.attributes
+                0x00000000       0x2c build/1_freertos_test/production/_ext/605666690/libc_syscalls.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/570142510/bsp.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/570142510/bsp.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/570142510/bsp.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .text.vApplicationIdleHook
+                0x00000000        0x2 build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .text.vApplicationTickHook
+                0x00000000        0x2 build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .text.vAssertCalled
+                0x00000000       0x1a build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/croutine.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/croutine.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/croutine.o
+ .debug_info    0x00000000      0x2d1 build/1_freertos_test/production/_ext/404212886/croutine.o
+ .debug_abbrev  0x00000000       0x1b build/1_freertos_test/production/_ext/404212886/croutine.o
+ .debug_aranges
+                0x00000000       0x18 build/1_freertos_test/production/_ext/404212886/croutine.o
+ .debug_line    0x00000000       0x1d build/1_freertos_test/production/_ext/404212886/croutine.o
+ .debug_str     0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/croutine.o
+ .comment       0x00000000       0x2c build/1_freertos_test/production/_ext/404212886/croutine.o
+ .ARM.attributes
+                0x00000000       0x32 build/1_freertos_test/production/_ext/404212886/croutine.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/list.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/list.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/list.o
+ .text.vListInsertEnd
+                0x00000000       0x16 build/1_freertos_test/production/_ext/404212886/list.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/queue.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/queue.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/queue.o
+ .text.prvIsQueueEmpty
+                0x00000000       0x14 build/1_freertos_test/production/_ext/404212886/queue.o
+ .text.prvCopyDataFromQueue
+                0x00000000       0x24 build/1_freertos_test/production/_ext/404212886/queue.o
+ .text.xQueueGenericSendFromISR
+                0x00000000       0x72 build/1_freertos_test/production/_ext/404212886/queue.o
+ .text.xQueueReceive
+                0x00000000       0xf8 build/1_freertos_test/production/_ext/404212886/queue.o
+ .text.xQueueSemaphoreTake
+                0x00000000      0x136 build/1_freertos_test/production/_ext/404212886/queue.o
+ .text.xQueuePeek
+                0x00000000       0xea build/1_freertos_test/production/_ext/404212886/queue.o
+ .text.xQueueReceiveFromISR
+                0x00000000       0x6a build/1_freertos_test/production/_ext/404212886/queue.o
+ .text.xQueuePeekFromISR
+                0x00000000       0x2e build/1_freertos_test/production/_ext/404212886/queue.o
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x12 build/1_freertos_test/production/_ext/404212886/queue.o
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x16 build/1_freertos_test/production/_ext/404212886/queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000        0x4 build/1_freertos_test/production/_ext/404212886/queue.o
+ .text.vQueueDelete
+                0x00000000        0x8 build/1_freertos_test/production/_ext/404212886/queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000        0x8 build/1_freertos_test/production/_ext/404212886/queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x00000000        0xc build/1_freertos_test/production/_ext/404212886/queue.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.vTaskDelete
+                0x00000000       0xa0 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.uxTaskPriorityGet
+                0x00000000       0x20 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.uxTaskPriorityGetFromISR
+                0x00000000       0x20 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.vTaskPrioritySet
+                0x00000000       0xd4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.vTaskResume
+                0x00000000       0x9c build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.vTaskEndScheduler
+                0x00000000       0x14 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.xTaskGetTickCount
+                0x00000000        0xc build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x00000000        0xc build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x00000000        0xc build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.pcTaskGetName
+                0x00000000       0x14 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.xTaskDelayUntil
+                0x00000000       0x60 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.xTaskCatchUpTicks
+                0x00000000       0x1c build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.vTaskSuspend
+                0x00000000       0x9c build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0x40 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.vTaskRemoveFromUnorderedEventList
+                0x00000000       0xb8 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.vTaskSetTimeOutState
+                0x00000000       0x24 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.xTaskGetCurrentTaskHandle
+                0x00000000        0xc build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.xTaskPriorityInherit
+                0x00000000       0xb0 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.vTaskPriorityDisinheritAfterTimeout
+                0x00000000       0x8c build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x18 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.pvTaskIncrementMutexHeldCount
+                0x00000000       0x1c build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.ulTaskGenericNotifyTake
+                0x00000000       0x94 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.xTaskGenericNotifyWait
+                0x00000000       0xa0 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.xTaskGenericNotify
+                0x00000000      0x104 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.xTaskGenericNotifyFromISR
+                0x00000000      0x148 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.vTaskGenericNotifyGiveFromISR
+                0x00000000       0xe8 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.xTaskGenericNotifyStateClear
+                0x00000000       0x38 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text.ulTaskGenericNotifyValueClear
+                0x00000000       0x30 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/timers.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/timers.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/timers.o
+ .debug_info    0x00000000      0x2cf build/1_freertos_test/production/_ext/404212886/timers.o
+ .debug_abbrev  0x00000000       0x1b build/1_freertos_test/production/_ext/404212886/timers.o
+ .debug_aranges
+                0x00000000       0x18 build/1_freertos_test/production/_ext/404212886/timers.o
+ .debug_line    0x00000000       0x1d build/1_freertos_test/production/_ext/404212886/timers.o
+ .debug_str     0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/timers.o
+ .comment       0x00000000       0x2c build/1_freertos_test/production/_ext/404212886/timers.o
+ .ARM.attributes
+                0x00000000       0x32 build/1_freertos_test/production/_ext/404212886/timers.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .text.xEventGroupCreate
+                0x00000000       0x18 build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .text.xEventGroupWaitBits
+                0x00000000       0xbc build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .text.xEventGroupClearBits
+                0x00000000       0x1a build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .text.xEventGroupGetBitsFromISR
+                0x00000000       0x12 build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .text.xEventGroupSetBits
+                0x00000000       0x8c build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .text.xEventGroupSync
+                0x00000000       0x86 build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .text.vEventGroupDelete
+                0x00000000       0x2c build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .text.vEventGroupSetBitsCallback
+                0x00000000        0x8 build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .text.vEventGroupClearBitsCallback
+                0x00000000        0x8 build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .debug_info    0x00000000      0xec6 build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .debug_abbrev  0x00000000      0x24d build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .debug_loc     0x00000000      0xcfa build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .debug_aranges
+                0x00000000       0x60 build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .debug_ranges  0x00000000       0x98 build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .debug_line    0x00000000      0x5d9 build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .debug_str     0x00000000      0x1ec build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .comment       0x00000000       0x2c build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .debug_frame   0x00000000      0x114 build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .ARM.attributes
+                0x00000000       0x2c build/1_freertos_test/production/_ext/404212886/event_groups.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.prvBytesInBuffer
+                0x00000000       0x12 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.prvWriteBytesToBuffer
+                0x00000000       0x42 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.prvWriteMessageToBuffer
+                0x00000000       0x50 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.prvReadBytesFromBuffer
+                0x00000000       0x42 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.prvReadMessageFromBuffer
+                0x00000000       0x4c build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.xStreamBufferGenericCreate
+                0x00000000       0x42 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.vStreamBufferDelete
+                0x00000000       0x18 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.xStreamBufferReset
+                0x00000000       0x48 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.xStreamBufferSetTriggerLevel
+                0x00000000       0x16 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.xStreamBufferSpacesAvailable
+                0x00000000       0x1e build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.xStreamBufferBytesAvailable
+                0x00000000        0x8 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.xStreamBufferSend
+                0x00000000       0xd0 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.xStreamBufferSendFromISR
+                0x00000000       0x6a build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.xStreamBufferReceive
+                0x00000000       0x9e build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.xStreamBufferNextMessageLengthBytes
+                0x00000000       0x30 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.xStreamBufferReceiveFromISR
+                0x00000000       0x5c build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.xStreamBufferIsEmpty
+                0x00000000        0xc build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.xStreamBufferIsFull
+                0x00000000       0x18 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.xStreamBufferSendCompletedFromISR
+                0x00000000       0x36 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text.xStreamBufferReceiveCompletedFromISR
+                0x00000000       0x36 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .debug_info    0x00000000     0x1a93 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .debug_abbrev  0x00000000      0x2fa build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .debug_loc     0x00000000     0x1964 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .debug_aranges
+                0x00000000       0xb8 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .debug_ranges  0x00000000       0xd0 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .debug_line    0x00000000      0xa22 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .debug_str     0x00000000      0x269 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .comment       0x00000000       0x2c build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .debug_frame   0x00000000      0x240 build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .ARM.attributes
+                0x00000000       0x2c build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/1665200909/heap_1.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/1665200909/heap_1.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/1665200909/heap_1.o
+ .text.vPortInitialiseBlocks
+                0x00000000        0xc build/1_freertos_test/production/_ext/1665200909/heap_1.o
+ .text.xPortGetFreeHeapSize
+                0x00000000       0x14 build/1_freertos_test/production/_ext/1665200909/heap_1.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/1624415188/port.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/1624415188/port.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/1624415188/port.o
+ .text.vPortEndScheduler
+                0x00000000        0x2 build/1_freertos_test/production/_ext/1624415188/port.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .text.OSAL_CRIT_Enter
+                0x00000000       0x1a build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .text.OSAL_CRIT_Leave
+                0x00000000       0x18 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .text.OSAL_SEM_Delete
+                0x00000000       0x12 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .text.OSAL_SEM_Pend
+                0x00000000       0x24 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .text.OSAL_SEM_Post
+                0x00000000       0x18 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .text.OSAL_SEM_GetCount
+                0x00000000       0x12 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .text.OSAL_MUTEX_Delete
+                0x00000000       0x1a build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .text.OSAL_MUTEX_Lock
+                0x00000000       0x24 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .text.OSAL_MUTEX_Unlock
+                0x00000000       0x18 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .text.OSAL_Malloc
+                0x00000000        0x8 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .text.OSAL_Free
+                0x00000000        0x8 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .text.OSAL_Initialize
+                0x00000000        0x4 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/tasks.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/tasks.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/605666690/tasks.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/1360937237/main.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/1360937237/main.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/1360937237/main.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/1360937237/app_blink.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/1360937237/app_blink.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/1360937237/app_blink.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .text._DRV_USART_DriverHandleValidate
+                0x00000000       0x48 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .text.DRV_USART_Status
+                0x00000000       0x14 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .text.DRV_USART_Open
+                0x00000000       0xe8 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .text.DRV_USART_SerialSetup
+                0x00000000       0x6c build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .text.DRV_USART_Close
+                0x00000000       0x38 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .text.DRV_USART_ErrorGet
+                0x00000000       0x12 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .text.DRV_USART_WriteBuffer
+                0x00000000       0x74 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .text.DRV_USART_ReadBuffer
+                0x00000000       0x74 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .text.SERCOM4_USART_FrequencyGet
+                0x00000000        0x8 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .text.SERCOM4_USART_TransmitterEnable
+                0x00000000       0x18 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .text.SERCOM4_USART_TransmitterDisable
+                0x00000000       0x1c build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .text.SERCOM4_USART_ReceiverEnable
+                0x00000000       0x18 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .text.SERCOM4_USART_ReceiverDisable
+                0x00000000       0x1c build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .text.SYS_INT_Enable
+                0x00000000        0x8 build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .text.SYS_INT_Disable
+                0x00000000        0x8 build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .text.SYS_INT_Restore
+                0x00000000        0x8 build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .text.SYS_INT_SourceDisable
+                0x00000000       0x3c build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .text.SYS_INT_SourceRestore
+                0x00000000       0x1c build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .debug_info    0x00000000      0x9f8 build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .debug_abbrev  0x00000000      0x246 build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .debug_loc     0x00000000      0x17d build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .debug_aranges
+                0x00000000       0x40 build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .debug_ranges  0x00000000       0x48 build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .debug_line    0x00000000      0x2d1 build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .debug_str     0x00000000       0x32 build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .comment       0x00000000       0x2c build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .debug_frame   0x00000000       0x84 build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .ARM.attributes
+                0x00000000       0x2c build/1_freertos_test/production/_ext/1672505237/sys_int.o
+ .text          0x00000000        0x0 build/1_freertos_test/production/_ext/1360937237/app_print.o
+ .data          0x00000000        0x0 build/1_freertos_test/production/_ext/1360937237/app_print.o
+ .bss           0x00000000        0x0 build/1_freertos_test/production/_ext/1360937237/app_print.o
+ .text          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+ .xc_stack_usage
+                0x00000000       0x2a /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+ .xc_stack_usage
+                0x00000000       0x2f /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .xc_stack_usage
+                0x00000000       0x34 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(libc.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(libc.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(libc.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .xc_stack_usage
+                0x00000000       0x14 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+ .xc_stack_usage
+                0x00000000       0x14 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__environ.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__environ.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__environ.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .xc_stack_usage
+                0x00000000       0x1e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .xc_stack_usage
+                0x00000000       0x1a /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .xc_stack_usage
+                0x00000000       0x36 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .xc_stack_usage
+                0x00000000       0x17 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .xc_stack_usage
+                0x00000000       0x17 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+ .xc_stack_usage
+                0x00000000       0x16 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+ .xc_stack_usage
+                0x00000000       0x16 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+ .eh_frame      0x00000000        0x4 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+ .comment       0x00000000       0x2c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+ .ARM.attributes
+                0x00000000       0x2c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+ .text          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+ .data          0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00040000         xrl
+ram              0x20000000         0x00008000         xw !r
+config_00804000  0x00804000         0x00000004
+config_00804004  0x00804004         0x00000004
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+LOAD /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+LOAD build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+LOAD build/1_freertos_test/production/_ext/1450708582/plib_evsys.o
+LOAD build/1_freertos_test/production/_ext/605666690/initialization.o
+LOAD build/1_freertos_test/production/_ext/605666690/interrupts.o
+LOAD build/1_freertos_test/production/_ext/605666690/exceptions.o
+LOAD build/1_freertos_test/production/_ext/1833140296/xc32_monitor.o
+LOAD build/1_freertos_test/production/_ext/323570781/plib_port.o
+LOAD build/1_freertos_test/production/_ext/1452858068/plib_clock.o
+LOAD build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+LOAD build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+LOAD build/1_freertos_test/production/_ext/605666690/libc_syscalls.o
+LOAD build/1_freertos_test/production/_ext/570142510/bsp.o
+LOAD build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+LOAD build/1_freertos_test/production/_ext/404212886/croutine.o
+LOAD build/1_freertos_test/production/_ext/404212886/list.o
+LOAD build/1_freertos_test/production/_ext/404212886/queue.o
+LOAD build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+LOAD build/1_freertos_test/production/_ext/404212886/timers.o
+LOAD build/1_freertos_test/production/_ext/404212886/event_groups.o
+LOAD build/1_freertos_test/production/_ext/404212886/stream_buffer.o
+LOAD build/1_freertos_test/production/_ext/1665200909/heap_1.o
+LOAD build/1_freertos_test/production/_ext/1624415188/port.o
+LOAD build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+LOAD build/1_freertos_test/production/_ext/605666690/tasks.o
+LOAD build/1_freertos_test/production/_ext/1360937237/main.o
+LOAD build/1_freertos_test/production/_ext/1360937237/app_blink.o
+LOAD build/1_freertos_test/production/_ext/12196316/drv_usart.o
+LOAD build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+LOAD build/1_freertos_test/production/_ext/1672505237/sys_int.o
+LOAD build/1_freertos_test/production/_ext/1360937237/app_print.o
+                0x00000001                __MPLAB_BUILD = 0x1
+                0x00040000                __rom_end = (ORIGIN (rom) + LENGTH (rom))
+                0x20008000                __ram_end = (ORIGIN (ram) + LENGTH (ram))
+
+.config_00804000
+ *(.config_00804000)
+
+.config_00804004
+ *(.config_00804004)
+
+.vectors        0x00000000       0xbc
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _sfixed = .
+ *(.vectors .vectors.* .vectors_default .vectors_default.*)
+ .vectors.exception_table
+                0x00000000       0xbc build/1_freertos_test/production/_ext/605666690/interrupts.o
+                0x00000000                exception_table
+ *(.isr_vector)
+ *(.reset*)
+ *(.after_vectors)
+
+.text           0x000000bc       0x20
+                0x000000bc                . = ALIGN (0x4)
+ *(.glue_7t)
+ .glue_7t       0x000000bc        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x000000bc        0x0 linker stubs
+ *(.gnu.linkonce.r.*)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000000bc                . = ALIGN (0x4)
+ *(.init)
+ .init          0x000000bc        0x4 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+                0x000000bc                _init
+ .init          0x000000c0        0x8 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+                0x000000c8                . = ALIGN (0x4)
+                0x000000c8                __preinit_array_start = .
+ *(.preinit_array)
+                0x000000c8                __preinit_array_end = .
+                0x000000c8                . = ALIGN (0x4)
+                0x000000c8                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x000000c8        0x4 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x000000cc                __init_array_end = .
+                0x000000cc                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *crtend.o(.ctors)
+                0x000000cc                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x000000cc        0x4 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+                0x000000cc                _fini
+ .fini          0x000000d0        0x8 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+                0x000000d8                . = ALIGN (0x4)
+                0x000000d8                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x000000d8        0x4 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+ *(SORT_BY_NAME(.fini_array.*))
+                0x000000dc                __fini_array_end = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *crtend.o(.dtors)
+                0x000000dc                . = ALIGN (0x4)
+                0x000000dc                _efixed = .
+                [!provide]                PROVIDE (__exidx_start = .)
+
+.ARM.exidx      0x000000dc        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x000000dc        0x8 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+                [!provide]                PROVIDE (__exidx_end = .)
+                0x000000e4                . = ALIGN (0x4)
+                0x000000e4                _etext = .
+
+.bss            0x20000000        0x0
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __bss_start__ = .
+                0x20000000                _sbss = .
+                0x20000000                _szero = .
+ *(COMMON)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __bss_end__ = .
+                0x20000000                _ebss = .
+                0x20000000                _ezero = .
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _end = .
+                0x20007fff                _ram_end_ = ((ORIGIN (ram) + LENGTH (ram)) - 0x1)
+                0x00000200                _min_heap_size = 0x200
+START GROUP
+LOAD /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a
+LOAD /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libm-emfloat.a
+LOAD /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a
+LOAD /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libm-emfloat.a
+LOAD /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a
+END GROUP
+LOAD /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+LOAD /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+OUTPUT(dist/1_freertos_test/production/1_freertos_test.X.production.elf elf32-littlearm)
+LOAD stack
+LOAD data_init
+
+.ARM.attributes
+                0x00000000       0x2c
+ .ARM.attributes
+                0x00000000       0x1e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x2c build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .ARM.attributes
+                0x00000076       0x2c build/1_freertos_test/production/_ext/1450708582/plib_evsys.o
+ .ARM.attributes
+                0x000000a2       0x2c build/1_freertos_test/production/_ext/605666690/initialization.o
+ .ARM.attributes
+                0x000000ce       0x2c build/1_freertos_test/production/_ext/605666690/interrupts.o
+ .ARM.attributes
+                0x000000fa       0x2c build/1_freertos_test/production/_ext/605666690/exceptions.o
+ .ARM.attributes
+                0x00000126       0x2c build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .ARM.attributes
+                0x00000152       0x2c build/1_freertos_test/production/_ext/1452858068/plib_clock.o
+ .ARM.attributes
+                0x0000017e       0x2c build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .ARM.attributes
+                0x000001aa       0x2c build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+ .ARM.attributes
+                0x000001d6       0x2c build/1_freertos_test/production/_ext/570142510/bsp.o
+ .ARM.attributes
+                0x00000202       0x2c build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .ARM.attributes
+                0x0000022e       0x2c build/1_freertos_test/production/_ext/404212886/list.o
+ .ARM.attributes
+                0x0000025a       0x2c build/1_freertos_test/production/_ext/404212886/queue.o
+ .ARM.attributes
+                0x00000286       0x2c build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .ARM.attributes
+                0x000002b2       0x2c build/1_freertos_test/production/_ext/1665200909/heap_1.o
+ .ARM.attributes
+                0x000002de       0x2c build/1_freertos_test/production/_ext/1624415188/port.o
+ .ARM.attributes
+                0x0000030a       0x2c build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .ARM.attributes
+                0x00000336       0x2c build/1_freertos_test/production/_ext/605666690/tasks.o
+ .ARM.attributes
+                0x00000362       0x2c build/1_freertos_test/production/_ext/1360937237/main.o
+ .ARM.attributes
+                0x0000038e       0x2c build/1_freertos_test/production/_ext/1360937237/app_blink.o
+ .ARM.attributes
+                0x000003ba       0x2c build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .ARM.attributes
+                0x000003e6       0x2c build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .ARM.attributes
+                0x00000412       0x2c build/1_freertos_test/production/_ext/1360937237/app_print.o
+ .ARM.attributes
+                0x0000043e       0x2c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+ .ARM.attributes
+                0x0000046a       0x2c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+ .ARM.attributes
+                0x00000496       0x2e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .ARM.attributes
+                0x000004c4       0x2e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(libc.o)
+ .ARM.attributes
+                0x000004f2       0x2e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .ARM.attributes
+                0x00000520       0x2e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+ .ARM.attributes
+                0x0000054e       0x2e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__environ.o)
+ .ARM.attributes
+                0x0000057c       0x1e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000059a       0x2c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x000005c6       0x1e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000005e4       0x1e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .ARM.attributes
+                0x00000602       0x1e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .ARM.attributes
+                0x00000620       0x1e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+ .ARM.attributes
+                0x0000063e       0x1e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x0000065c       0x1e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+
+.comment        0x00000000       0x2b
+ .comment       0x00000000       0x2b /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+                                 0x2c (size before relaxing)
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/1450708582/plib_evsys.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/605666690/initialization.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/605666690/interrupts.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/605666690/exceptions.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/1452858068/plib_clock.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/570142510/bsp.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/404212886/list.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/404212886/queue.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/1665200909/heap_1.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/1624415188/port.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/605666690/tasks.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/1360937237/main.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/1360937237/app_blink.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .comment       0x0000002b       0x2c build/1_freertos_test/production/_ext/1360937237/app_print.o
+ .comment       0x0000002b       0x2c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+ .comment       0x0000002b       0x2c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+ .comment       0x0000002b       0x2c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .comment       0x0000002b       0x2c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(libc.o)
+ .comment       0x0000002b       0x2c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .comment       0x0000002b       0x2c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+ .comment       0x0000002b       0x2c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__environ.o)
+ .comment       0x0000002b       0x2c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+
+.debug_info     0x00000000    0x131ca
+ .debug_info    0x00000000      0xbc1 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .debug_info    0x00000bc1      0x309 build/1_freertos_test/production/_ext/1450708582/plib_evsys.o
+ .debug_info    0x00000eca     0x1533 build/1_freertos_test/production/_ext/605666690/initialization.o
+ .debug_info    0x000023fd      0x8ba build/1_freertos_test/production/_ext/605666690/interrupts.o
+ .debug_info    0x00002cb7      0x32d build/1_freertos_test/production/_ext/605666690/exceptions.o
+ .debug_info    0x00002fe4      0xd4b build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .debug_info    0x00003d2f      0xac9 build/1_freertos_test/production/_ext/1452858068/plib_clock.o
+ .debug_info    0x000047f8      0xa59 build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .debug_info    0x00005251      0x48e build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+ .debug_info    0x000056df      0x52b build/1_freertos_test/production/_ext/570142510/bsp.o
+ .debug_info    0x00005c0a      0x488 build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .debug_info    0x00006092      0x61b build/1_freertos_test/production/_ext/404212886/list.o
+ .debug_info    0x000066ad     0x2042 build/1_freertos_test/production/_ext/404212886/queue.o
+ .debug_info    0x000086ef     0x2f2e build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .debug_info    0x0000b61d      0x500 build/1_freertos_test/production/_ext/1665200909/heap_1.o
+ .debug_info    0x0000bb1d      0x6d9 build/1_freertos_test/production/_ext/1624415188/port.o
+ .debug_info    0x0000c1f6      0xb85 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .debug_info    0x0000cd7b      0x4eb build/1_freertos_test/production/_ext/605666690/tasks.o
+ .debug_info    0x0000d266      0x31a build/1_freertos_test/production/_ext/1360937237/main.o
+ .debug_info    0x0000d580      0x669 build/1_freertos_test/production/_ext/1360937237/app_blink.o
+ .debug_info    0x0000dbe9     0x1bc2 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .debug_info    0x0000f7ab     0x1822 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .debug_info    0x00010fcd      0x491 build/1_freertos_test/production/_ext/1360937237/app_print.o
+ .debug_info    0x0001145e      0x296 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+ .debug_info    0x000116f4      0x297 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+ .debug_info    0x0001198b      0x615 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .debug_info    0x00011fa0      0x527 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(libc.o)
+ .debug_info    0x000124c7      0x2e3 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .debug_info    0x000127aa      0x2a7 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+ .debug_info    0x00012a51      0x2a1 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__environ.o)
+ .debug_info    0x00012cf2       0x26 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x00012d18      0x3f4 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_info    0x0001310c       0x26 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x00013132       0x26 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .debug_info    0x00013158       0x26 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .debug_info    0x0001317e       0x26 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+ .debug_info    0x000131a4       0x26 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+
+.debug_abbrev   0x00000000     0x2b0c
+ .debug_abbrev  0x00000000      0x1ba build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .debug_abbrev  0x000001ba       0x3b build/1_freertos_test/production/_ext/1450708582/plib_evsys.o
+ .debug_abbrev  0x000001f5      0x249 build/1_freertos_test/production/_ext/605666690/initialization.o
+ .debug_abbrev  0x0000043e       0xb5 build/1_freertos_test/production/_ext/605666690/interrupts.o
+ .debug_abbrev  0x000004f3       0x3e build/1_freertos_test/production/_ext/605666690/exceptions.o
+ .debug_abbrev  0x00000531      0x1d6 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .debug_abbrev  0x00000707      0x14f build/1_freertos_test/production/_ext/1452858068/plib_clock.o
+ .debug_abbrev  0x00000856      0x1e1 build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .debug_abbrev  0x00000a37      0x110 build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+ .debug_abbrev  0x00000b47       0xa8 build/1_freertos_test/production/_ext/570142510/bsp.o
+ .debug_abbrev  0x00000bef       0xf7 build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .debug_abbrev  0x00000ce6      0x15e build/1_freertos_test/production/_ext/404212886/list.o
+ .debug_abbrev  0x00000e44      0x315 build/1_freertos_test/production/_ext/404212886/queue.o
+ .debug_abbrev  0x00001159      0x410 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .debug_abbrev  0x00001569      0x16c build/1_freertos_test/production/_ext/1665200909/heap_1.o
+ .debug_abbrev  0x000016d5      0x1cf build/1_freertos_test/production/_ext/1624415188/port.o
+ .debug_abbrev  0x000018a4      0x1f9 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .debug_abbrev  0x00001a9d       0xf7 build/1_freertos_test/production/_ext/605666690/tasks.o
+ .debug_abbrev  0x00001b94       0x77 build/1_freertos_test/production/_ext/1360937237/main.o
+ .debug_abbrev  0x00001c0b      0x15d build/1_freertos_test/production/_ext/1360937237/app_blink.o
+ .debug_abbrev  0x00001d68      0x3ef build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .debug_abbrev  0x00002157      0x39d build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .debug_abbrev  0x000024f4      0x15d build/1_freertos_test/production/_ext/1360937237/app_print.o
+ .debug_abbrev  0x00002651       0x2e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+ .debug_abbrev  0x0000267f       0x2e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+ .debug_abbrev  0x000026ad      0x117 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .debug_abbrev  0x000027c4       0xb8 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(libc.o)
+ .debug_abbrev  0x0000287c       0x9c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .debug_abbrev  0x00002918       0x97 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+ .debug_abbrev  0x000029af       0x57 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__environ.o)
+ .debug_abbrev  0x00002a06       0x14 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x00002a1a       0x8e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_abbrev  0x00002aa8       0x14 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x00002abc       0x14 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x00002ad0       0x14 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .debug_abbrev  0x00002ae4       0x14 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+ .debug_abbrev  0x00002af8       0x14 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+
+.debug_loc      0x00000000     0x6cdf
+ .debug_loc     0x00000000      0x689 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .debug_loc     0x00000689       0x45 build/1_freertos_test/production/_ext/605666690/initialization.o
+ .debug_loc     0x000006ce      0x226 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .debug_loc     0x000008f4       0x45 build/1_freertos_test/production/_ext/1452858068/plib_clock.o
+ .debug_loc     0x00000939       0x70 build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .debug_loc     0x000009a9       0x20 build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+ .debug_loc     0x000009c9       0x76 build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .debug_loc     0x00000a3f       0xa6 build/1_freertos_test/production/_ext/404212886/list.o
+ .debug_loc     0x00000ae5     0x19b4 build/1_freertos_test/production/_ext/404212886/queue.o
+ .debug_loc     0x00002499     0x253f build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .debug_loc     0x000049d8       0x8f build/1_freertos_test/production/_ext/1665200909/heap_1.o
+ .debug_loc     0x00004a67      0x14d build/1_freertos_test/production/_ext/1624415188/port.o
+ .debug_loc     0x00004bb4      0x70a build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .debug_loc     0x000052be       0xb6 build/1_freertos_test/production/_ext/605666690/tasks.o
+ .debug_loc     0x00005374       0x20 build/1_freertos_test/production/_ext/1360937237/main.o
+ .debug_loc     0x00005394       0x36 build/1_freertos_test/production/_ext/1360937237/app_blink.o
+ .debug_loc     0x000053ca      0xd77 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .debug_loc     0x00006141      0x666 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .debug_loc     0x000067a7       0x42 build/1_freertos_test/production/_ext/1360937237/app_print.o
+ .debug_loc     0x000067e9       0x14 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+ .debug_loc     0x000067fd       0x14 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+ .debug_loc     0x00006811       0x5e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .debug_loc     0x0000686f      0x109 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .debug_loc     0x00006978       0x80 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+ .debug_loc     0x000069f8      0x2e7 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+
+.debug_aranges  0x00000000      0x9c8
+ .debug_aranges
+                0x00000000       0xa0 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .debug_aranges
+                0x000000a0       0x20 build/1_freertos_test/production/_ext/1450708582/plib_evsys.o
+ .debug_aranges
+                0x000000c0       0x20 build/1_freertos_test/production/_ext/605666690/initialization.o
+ .debug_aranges
+                0x000000e0       0x20 build/1_freertos_test/production/_ext/605666690/interrupts.o
+ .debug_aranges
+                0x00000100       0x28 build/1_freertos_test/production/_ext/605666690/exceptions.o
+ .debug_aranges
+                0x00000128       0x70 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .debug_aranges
+                0x00000198       0x20 build/1_freertos_test/production/_ext/1452858068/plib_clock.o
+ .debug_aranges
+                0x000001b8       0x38 build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .debug_aranges
+                0x000001f0       0x28 build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+ .debug_aranges
+                0x00000218       0x20 build/1_freertos_test/production/_ext/570142510/bsp.o
+ .debug_aranges
+                0x00000238       0x40 build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .debug_aranges
+                0x00000278       0x40 build/1_freertos_test/production/_ext/404212886/list.o
+ .debug_aranges
+                0x000002b8       0xc8 build/1_freertos_test/production/_ext/404212886/queue.o
+ .debug_aranges
+                0x00000380      0x178 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .debug_aranges
+                0x000004f8       0x38 build/1_freertos_test/production/_ext/1665200909/heap_1.o
+ .debug_aranges
+                0x00000530       0x88 build/1_freertos_test/production/_ext/1624415188/port.o
+ .debug_aranges
+                0x000005b8       0x90 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .debug_aranges
+                0x00000648       0x30 build/1_freertos_test/production/_ext/605666690/tasks.o
+ .debug_aranges
+                0x00000678       0x20 build/1_freertos_test/production/_ext/1360937237/main.o
+ .debug_aranges
+                0x00000698       0x28 build/1_freertos_test/production/_ext/1360937237/app_blink.o
+ .debug_aranges
+                0x000006c0       0x70 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .debug_aranges
+                0x00000730       0xb8 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .debug_aranges
+                0x000007e8       0x28 build/1_freertos_test/production/_ext/1360937237/app_print.o
+ .debug_aranges
+                0x00000810       0x20 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+ .debug_aranges
+                0x00000830       0x20 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+ .debug_aranges
+                0x00000850       0x28 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .debug_aranges
+                0x00000878       0x18 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(libc.o)
+ .debug_aranges
+                0x00000890       0x20 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .debug_aranges
+                0x000008b0       0x20 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+ .debug_aranges
+                0x000008d0       0x18 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__environ.o)
+ .debug_aranges
+                0x000008e8       0x20 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_aranges
+                0x00000908       0x20 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_aranges
+                0x00000928       0x20 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x00000948       0x20 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .debug_aranges
+                0x00000968       0x20 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .debug_aranges
+                0x00000988       0x20 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+ .debug_aranges
+                0x000009a8       0x20 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+
+.debug_ranges   0x00000000      0xad8
+ .debug_ranges  0x00000000       0x90 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .debug_ranges  0x00000090       0x10 build/1_freertos_test/production/_ext/1450708582/plib_evsys.o
+ .debug_ranges  0x000000a0       0x10 build/1_freertos_test/production/_ext/605666690/initialization.o
+ .debug_ranges  0x000000b0       0x10 build/1_freertos_test/production/_ext/605666690/interrupts.o
+ .debug_ranges  0x000000c0       0x18 build/1_freertos_test/production/_ext/605666690/exceptions.o
+ .debug_ranges  0x000000d8       0x60 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .debug_ranges  0x00000138       0x10 build/1_freertos_test/production/_ext/1452858068/plib_clock.o
+ .debug_ranges  0x00000148       0x28 build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .debug_ranges  0x00000170       0x18 build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+ .debug_ranges  0x00000188       0x10 build/1_freertos_test/production/_ext/570142510/bsp.o
+ .debug_ranges  0x00000198       0x30 build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .debug_ranges  0x000001c8       0x30 build/1_freertos_test/production/_ext/404212886/list.o
+ .debug_ranges  0x000001f8      0x1a8 build/1_freertos_test/production/_ext/404212886/queue.o
+ .debug_ranges  0x000003a0      0x3e0 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .debug_ranges  0x00000780       0x28 build/1_freertos_test/production/_ext/1665200909/heap_1.o
+ .debug_ranges  0x000007a8       0x78 build/1_freertos_test/production/_ext/1624415188/port.o
+ .debug_ranges  0x00000820       0x80 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .debug_ranges  0x000008a0       0x20 build/1_freertos_test/production/_ext/605666690/tasks.o
+ .debug_ranges  0x000008c0       0x10 build/1_freertos_test/production/_ext/1360937237/main.o
+ .debug_ranges  0x000008d0       0x18 build/1_freertos_test/production/_ext/1360937237/app_blink.o
+ .debug_ranges  0x000008e8       0x90 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .debug_ranges  0x00000978       0xd8 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .debug_ranges  0x00000a50       0x18 build/1_freertos_test/production/_ext/1360937237/app_print.o
+ .debug_ranges  0x00000a68       0x10 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+ .debug_ranges  0x00000a78       0x10 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+ .debug_ranges  0x00000a88       0x30 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .debug_ranges  0x00000ab8       0x10 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .debug_ranges  0x00000ac8       0x10 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+
+.debug_line     0x00000000     0x6a09
+ .debug_line    0x00000000      0x44a build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .debug_line    0x0000044a       0x6e build/1_freertos_test/production/_ext/1450708582/plib_evsys.o
+ .debug_line    0x000004b8      0x470 build/1_freertos_test/production/_ext/605666690/initialization.o
+ .debug_line    0x00000928       0xb6 build/1_freertos_test/production/_ext/605666690/interrupts.o
+ .debug_line    0x000009de       0x76 build/1_freertos_test/production/_ext/605666690/exceptions.o
+ .debug_line    0x00000a54      0x2b6 build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .debug_line    0x00000d0a      0x1c3 build/1_freertos_test/production/_ext/1452858068/plib_clock.o
+ .debug_line    0x00000ecd      0x298 build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .debug_line    0x00001165      0x147 build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+ .debug_line    0x000012ac       0xd4 build/1_freertos_test/production/_ext/570142510/bsp.o
+ .debug_line    0x00001380      0x169 build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .debug_line    0x000014e9      0x2c1 build/1_freertos_test/production/_ext/404212886/list.o
+ .debug_line    0x000017aa      0xe7e build/1_freertos_test/production/_ext/404212886/queue.o
+ .debug_line    0x00002628     0x183a build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .debug_line    0x00003e62      0x203 build/1_freertos_test/production/_ext/1665200909/heap_1.o
+ .debug_line    0x00004065      0x31e build/1_freertos_test/production/_ext/1624415188/port.o
+ .debug_line    0x00004383      0x432 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .debug_line    0x000047b5      0x149 build/1_freertos_test/production/_ext/605666690/tasks.o
+ .debug_line    0x000048fe       0x75 build/1_freertos_test/production/_ext/1360937237/main.o
+ .debug_line    0x00004973      0x193 build/1_freertos_test/production/_ext/1360937237/app_blink.o
+ .debug_line    0x00004b06      0x7e7 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .debug_line    0x000052ed      0x8de build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .debug_line    0x00005bcb      0x1c5 build/1_freertos_test/production/_ext/1360937237/app_print.o
+ .debug_line    0x00005d90       0xab /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+ .debug_line    0x00005e3b      0x113 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+ .debug_line    0x00005f4e      0x1c8 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .debug_line    0x00006116       0xbb /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(libc.o)
+ .debug_line    0x000061d1       0xf3 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .debug_line    0x000062c4       0xe7 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+ .debug_line    0x000063ab      0x107 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__environ.o)
+ .debug_line    0x000064b2       0xa2 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x00006554      0x18e /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_line    0x000066e2       0x97 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x00006779       0xa2 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .debug_line    0x0000681b       0xa2 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .debug_line    0x000068bd       0xa1 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+ .debug_line    0x0000695e       0xab /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+
+.debug_str      0x00000000     0x1160
+ .debug_str     0x00000000       0x16 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .debug_str     0x00000016        0x0 build/1_freertos_test/production/_ext/1450708582/plib_evsys.o
+ .debug_str     0x00000016      0x12a build/1_freertos_test/production/_ext/605666690/initialization.o
+ .debug_str     0x00000140        0x0 build/1_freertos_test/production/_ext/605666690/interrupts.o
+ .debug_str     0x00000140        0x0 build/1_freertos_test/production/_ext/605666690/exceptions.o
+ .debug_str     0x00000140        0xb build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .debug_str     0x0000014b       0x1e build/1_freertos_test/production/_ext/1452858068/plib_clock.o
+ .debug_str     0x00000169        0xa build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .debug_str     0x00000173       0x2f build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+ .debug_str     0x000001a2        0x0 build/1_freertos_test/production/_ext/570142510/bsp.o
+ .debug_str     0x000001a2       0x25 build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .debug_str     0x000001c7       0x2b build/1_freertos_test/production/_ext/404212886/list.o
+ .debug_str     0x000001f2      0x2bf build/1_freertos_test/production/_ext/404212886/queue.o
+ .debug_str     0x000004b1      0x2d5 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .debug_str     0x00000786       0x3c build/1_freertos_test/production/_ext/1665200909/heap_1.o
+ .debug_str     0x000007c2       0x26 build/1_freertos_test/production/_ext/1624415188/port.o
+ .debug_str     0x000007e8      0x13b build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .debug_str     0x00000923       0x4d build/1_freertos_test/production/_ext/605666690/tasks.o
+ .debug_str     0x00000970       0x19 build/1_freertos_test/production/_ext/1360937237/main.o
+ .debug_str     0x00000989        0xb build/1_freertos_test/production/_ext/1360937237/app_blink.o
+ .debug_str     0x00000994      0x116 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .debug_str     0x00000aaa      0x10e build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .debug_str     0x00000bb8       0x3e build/1_freertos_test/production/_ext/1360937237/app_print.o
+ .debug_str     0x00000bf6        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+ .debug_str     0x00000bf6        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+ .debug_str     0x00000bf6        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .debug_str     0x00000bf6        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(libc.o)
+ .debug_str     0x00000bf6        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .debug_str     0x00000bf6        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+ .debug_str     0x00000bf6        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__environ.o)
+ .debug_str     0x00000bf6       0xe7 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_str     0x00000cdd        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_str     0x00000cdd       0xe7 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_str     0x00000dc4       0xe7 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .debug_str     0x00000eab       0xe7 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .debug_str     0x00000f92       0xe7 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+ .debug_str     0x00001079       0xe7 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+
+.debug_frame    0x00000000     0x12b8
+ .debug_frame   0x00000000      0x148 build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+ .debug_frame   0x00000148       0x20 build/1_freertos_test/production/_ext/1450708582/plib_evsys.o
+ .debug_frame   0x00000168       0x28 build/1_freertos_test/production/_ext/605666690/initialization.o
+ .debug_frame   0x00000190       0x20 build/1_freertos_test/production/_ext/605666690/interrupts.o
+ .debug_frame   0x000001b0       0x30 build/1_freertos_test/production/_ext/605666690/exceptions.o
+ .debug_frame   0x000001e0       0xcc build/1_freertos_test/production/_ext/323570781/plib_port.o
+ .debug_frame   0x000002ac       0x20 build/1_freertos_test/production/_ext/1452858068/plib_clock.o
+ .debug_frame   0x000002cc       0x50 build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+ .debug_frame   0x0000031c       0x38 build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+ .debug_frame   0x00000354       0x20 build/1_freertos_test/production/_ext/570142510/bsp.o
+ .debug_frame   0x00000374       0x68 build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+ .debug_frame   0x000003dc       0x6c build/1_freertos_test/production/_ext/404212886/list.o
+ .debug_frame   0x00000448      0x270 build/1_freertos_test/production/_ext/404212886/queue.o
+ .debug_frame   0x000006b8      0x470 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+ .debug_frame   0x00000b28       0x5c build/1_freertos_test/production/_ext/1665200909/heap_1.o
+ .debug_frame   0x00000b84      0x10c build/1_freertos_test/production/_ext/1624415188/port.o
+ .debug_frame   0x00000c90      0x174 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+ .debug_frame   0x00000e04       0x5c build/1_freertos_test/production/_ext/605666690/tasks.o
+ .debug_frame   0x00000e60       0x28 build/1_freertos_test/production/_ext/1360937237/main.o
+ .debug_frame   0x00000e88       0x38 build/1_freertos_test/production/_ext/1360937237/app_blink.o
+ .debug_frame   0x00000ec0      0x128 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+ .debug_frame   0x00000fe8      0x18c build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+ .debug_frame   0x00001174       0x3c build/1_freertos_test/production/_ext/1360937237/app_print.o
+ .debug_frame   0x000011b0       0x28 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+ .debug_frame   0x000011d8       0x30 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+ .debug_frame   0x00001208       0x38 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .debug_frame   0x00001240       0x28 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .debug_frame   0x00001268       0x20 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+ .debug_frame   0x00001288       0x30 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(libc.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__environ.o)
+
+.stack          0x20001448      0x100
+ .stack         0x20001448      0x100 stack
+
+.bss.ucHeap%1   0x20000000     0x1000
+ .bss.ucHeap    0x20000000     0x1000 build/1_freertos_test/production/_ext/1665200909/heap_1.o
+
+.bss.pxReadyTasksLists%2
+                0x20001000       0x64
+ .bss.pxReadyTasksLists
+                0x20001000       0x64 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.gDrvUSARTObj%3
+                0x20001064       0x50
+ .bss.gDrvUSARTObj
+                0x20001064       0x50 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+
+.bss%4          0x200010b4       0x50
+ .bss           0x200010b4       0x50 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(libc.o)
+                0x200010b4                program_invocation_name
+                0x200010b4                __progname_full
+                0x200010b8                __progname
+                0x200010b8                program_invocation_short_name
+                0x200010bc                __sysinfo
+                0x200010c0                __hwcap
+                0x200010c4                __libc
+
+.bss.sercom4USARTObj%5
+                0x20001104       0x30
+ .bss.sercom4USARTObj
+                0x20001104       0x30 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+
+.bss%6          0x20001134       0x1c
+ .bss           0x20001134       0x1c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+
+.bss.xDelayedTaskList1%7
+                0x20001150       0x14
+ .bss.xDelayedTaskList1
+                0x20001150       0x14 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.xDelayedTaskList2%8
+                0x20001164       0x14
+ .bss.xDelayedTaskList2
+                0x20001164       0x14 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.xPendingReadyList%9
+                0x20001178       0x14
+ .bss.xPendingReadyList
+                0x20001178       0x14 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.xSuspendedTaskList%10
+                0x2000118c       0x14
+ .bss.xSuspendedTaskList
+                0x2000118c       0x14 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.xTasksWaitingTermination%11
+                0x200011a0       0x14
+ .bss.xTasksWaitingTermination
+                0x200011a0       0x14 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.drvUSART0ClientObjPool%12
+                0x200011b4       0x10
+ .bss.drvUSART0ClientObjPool
+                0x200011b4       0x10 build/1_freertos_test/production/_ext/605666690/initialization.o
+
+.bss.sysObj%13  0x200011c4        0x4
+ .bss.sysObj    0x200011c4        0x4 build/1_freertos_test/production/_ext/605666690/initialization.o
+                0x200011c4                sysObj
+
+.bss.pxCurrentTCB%14
+                0x200011c8        0x4
+ .bss.pxCurrentTCB
+                0x200011c8        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+                0x200011c8                pxCurrentTCB
+
+.bss.pxDelayedTaskList%15
+                0x200011cc        0x4
+ .bss.pxDelayedTaskList
+                0x200011cc        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.pxOverflowDelayedTaskList%16
+                0x200011d0        0x4
+ .bss.pxOverflowDelayedTaskList
+                0x200011d0        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.uxCurrentNumberOfTasks%17
+                0x200011d4        0x4
+ .bss.uxCurrentNumberOfTasks
+                0x200011d4        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.uxDeletedTasksWaitingCleanUp%18
+                0x200011d8        0x4
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x200011d8        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.uxSchedulerSuspended%19
+                0x200011dc        0x4
+ .bss.uxSchedulerSuspended
+                0x200011dc        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.uxTaskNumber%20
+                0x200011e0        0x4
+ .bss.uxTaskNumber
+                0x200011e0        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.uxTopReadyPriority%21
+                0x200011e4        0x4
+ .bss.uxTopReadyPriority
+                0x200011e4        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.xIdleTaskHandle%22
+                0x200011e8        0x4
+ .bss.xIdleTaskHandle
+                0x200011e8        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.xNextTaskUnblockTime%23
+                0x200011ec        0x4
+ .bss.xNextTaskUnblockTime
+                0x200011ec        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.xNumOfOverflows%24
+                0x200011f0        0x4
+ .bss.xNumOfOverflows
+                0x200011f0        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.xPendedTicks%25
+                0x200011f4        0x4
+ .bss.xPendedTicks
+                0x200011f4        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.xSchedulerRunning%26
+                0x200011f8        0x4
+ .bss.xSchedulerRunning
+                0x200011f8        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.xTickCount%27
+                0x200011fc        0x4
+ .bss.xTickCount
+                0x200011fc        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.xYieldPending%28
+                0x20001200        0x4
+ .bss.xYieldPending
+                0x20001200        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.bss.pucAlignedHeap.4854%29
+                0x20001204        0x4
+ .bss.pucAlignedHeap.4854
+                0x20001204        0x4 build/1_freertos_test/production/_ext/1665200909/heap_1.o
+
+.bss.xNextFreeByte%30
+                0x20001208        0x4
+ .bss.xNextFreeByte
+                0x20001208        0x4 build/1_freertos_test/production/_ext/1665200909/heap_1.o
+
+.bss.xAPP_BLINK_Tasks%31
+                0x2000120c        0x4
+ .bss.xAPP_BLINK_Tasks
+                0x2000120c        0x4 build/1_freertos_test/production/_ext/605666690/tasks.o
+                0x2000120c                xAPP_BLINK_Tasks
+
+.bss.xAPP_PRINT_Tasks%32
+                0x20001210        0x4
+ .bss.xAPP_PRINT_Tasks
+                0x20001210        0x4 build/1_freertos_test/production/_ext/605666690/tasks.o
+                0x20001210                xAPP_PRINT_Tasks
+
+.bss%33         0x20001214        0x8
+ .bss           0x20001214        0x4 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+ .bss           0x20001218        0x4 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__environ.o)
+                0x20001218                _environ
+                0x20001218                __environ
+                0x20001218                environ
+                0x20001218                ___environ
+
+.bss.app_printData%35
+                0x2000121c        0x1
+ .bss.app_printData
+                0x2000121c        0x1 build/1_freertos_test/production/_ext/1360937237/app_print.o
+                0x2000121c                app_printData
+
+.bss.app_blinkData%36
+                0x20001220        0x1
+ .bss.app_blinkData
+                0x20001220        0x1 build/1_freertos_test/production/_ext/1360937237/app_blink.o
+                0x20001220                app_blinkData
+
+.data.uxTopUsedPriority%37
+                0x20001224        0x4
+ .data.uxTopUsedPriority
+                0x20001224        0x4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+                0x20001224                uxTopUsedPriority
+
+.data.uxCriticalNesting%38
+                0x20001228        0x4
+ .data.uxCriticalNesting
+                0x20001228        0x4 build/1_freertos_test/production/_ext/1624415188/port.o
+
+.eh_frame%z1    0x00000000        0x0
+ .eh_frame      0x00000000        0x0 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+
+.config_00804000.__config_00804000%39
+                0x00804000        0x4
+ .config_00804000.__config_00804000
+                0x00804000        0x4 build/1_freertos_test/production/_ext/605666690/initialization.o
+                0x00804000                __config_00804000
+
+.config_00804004.__config_00804004%40
+                0x00804004        0x4
+ .config_00804004.__config_00804004
+                0x00804004        0x4 build/1_freertos_test/production/_ext/605666690/initialization.o
+                0x00804004                __config_00804004
+
+.text.xTaskCreate%41
+                0x000000e4      0x208
+ .text.xTaskCreate
+                0x000000e4      0x208 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+                0x000000e4                xTaskCreate
+
+.dinit%42       0x000002ec      0x1e0
+ .dinit         0x000002ec      0x1e0 data_init
+
+.text.xTaskIncrementTick%43
+                0x000004cc      0x190
+ .text.xTaskIncrementTick
+                0x000004cc      0x190 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+                0x000004cc                xTaskIncrementTick
+
+.text.SERCOM4_USART_InterruptHandler%44
+                0x0000065c      0x16c
+ .text.SERCOM4_USART_InterruptHandler
+                0x0000065c      0x16c build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+                0x0000065c                SERCOM4_USART_InterruptHandler
+
+.text.xTaskResumeAll%45
+                0x000007c8      0x164
+ .text.xTaskResumeAll
+                0x000007c8      0x164 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+                0x000007c8                xTaskResumeAll
+
+.text.SERCOM4_USART_SerialSetup%46
+                0x0000092c      0x138
+ .text.SERCOM4_USART_SerialSetup
+                0x0000092c      0x138 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+                0x0000092c                SERCOM4_USART_SerialSetup
+
+.text.xQueueGenericSend%47
+                0x00000a64      0x108
+ .text.xQueueGenericSend
+                0x00000a64      0x108 build/1_freertos_test/production/_ext/404212886/queue.o
+                0x00000a64                xQueueGenericSend
+
+.text%48        0x00000b6c       0xe2
+ .text          0x00000b6c       0xe2 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+                0x00000b6c                __udivmoddi4
+
+.text.xTaskRemoveFromEventList%49
+                0x00000c50       0xe0
+ .text.xTaskRemoveFromEventList
+                0x00000c50       0xe0 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+                0x00000c50                xTaskRemoveFromEventList
+
+.text.DRV_USART_Initialize%50
+                0x00000d30       0xdc
+ .text.DRV_USART_Initialize
+                0x00000d30       0xdc build/1_freertos_test/production/_ext/12196316/drv_usart.o
+                0x00000d30                DRV_USART_Initialize
+
+.text.vTaskSwitchContext%51
+                0x00000e0c       0xc4
+ .text.vTaskSwitchContext
+                0x00000e0c       0xc4 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+                0x00000e0c                vTaskSwitchContext
+
+.text.xQueueGenericReset%52
+                0x00000ed0       0xb2
+ .text.xQueueGenericReset
+                0x00000ed0       0xb2 build/1_freertos_test/production/_ext/404212886/queue.o
+                0x00000ed0                xQueueGenericReset
+
+.text.prvAddCurrentTaskToDelayedList%53
+                0x00000f84       0x94
+ .text.prvAddCurrentTaskToDelayedList
+                0x00000f84       0x94 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.text.pvPortMalloc%54
+                0x00001018       0x90
+ .text.pvPortMalloc
+                0x00001018       0x90 build/1_freertos_test/production/_ext/1665200909/heap_1.o
+                0x00001018                pvPortMalloc
+
+.text.prvUnlockQueue%55
+                0x000010a8       0x86
+ .text.prvUnlockQueue
+                0x000010a8       0x86 build/1_freertos_test/production/_ext/404212886/queue.o
+
+.text.xTaskPriorityDisinherit%56
+                0x00001130       0x80
+ .text.xTaskPriorityDisinherit
+                0x00001130       0x80 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+                0x00001130                xTaskPriorityDisinherit
+
+.text.xQueueGenericCreate%57
+                0x000011b0       0x7e
+ .text.xQueueGenericCreate
+                0x000011b0       0x7e build/1_freertos_test/production/_ext/404212886/queue.o
+                0x000011b0                xQueueGenericCreate
+
+.text.CLOCK_Initialize%58
+                0x00001230       0x78
+ .text.CLOCK_Initialize
+                0x00001230       0x78 build/1_freertos_test/production/_ext/1452858068/plib_clock.o
+                0x00001230                CLOCK_Initialize
+
+.text.prvCopyDataToQueue%59
+                0x000012a8       0x76
+ .text.prvCopyDataToQueue
+                0x000012a8       0x76 build/1_freertos_test/production/_ext/404212886/queue.o
+
+.text.SERCOM4_USART_Write%60
+                0x00001320       0x74
+ .text.SERCOM4_USART_Write
+                0x00001320       0x74 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+                0x00001320                SERCOM4_USART_Write
+
+.text.__pic32c_data_initialization_impl%61
+                0x00001394       0x70
+ .text.__pic32c_data_initialization_impl
+                0x00001394       0x70 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_0_1.o)
+                0x00001394                __pic32c_data_initialization_impl
+                0x00001394                __copy_needed
+
+.text.prvIdleTask%62
+                0x00001404       0x68
+ .text.prvIdleTask
+                0x00001404       0x68 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.text.vTaskStartScheduler%63
+                0x0000146c       0x5c
+ .text.vTaskStartScheduler
+                0x0000146c       0x5c build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+                0x0000146c                vTaskStartScheduler
+
+.text.xTaskCheckForTimeOut%64
+                0x000014c8       0x5c
+ .text.xTaskCheckForTimeOut
+                0x000014c8       0x5c build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+                0x000014c8                xTaskCheckForTimeOut
+
+.text.__libc_start_init%65
+                0x00001524       0x5c
+ .text.__libc_start_init
+                0x00001524       0x5c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+                0x00001524                __libc_init_array
+
+.text.xQueueGiveFromISR%66
+                0x00001580       0x5a
+ .text.xQueueGiveFromISR
+                0x00001580       0x5a build/1_freertos_test/production/_ext/404212886/queue.o
+                0x00001580                xQueueGiveFromISR
+
+.text.OSAL_SEM_Create%67
+                0x000015da       0x5a
+ .text.OSAL_SEM_Create
+                0x000015da       0x5a build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+                0x000015da                OSAL_SEM_Create
+
+.text.SERCOM4_USART_Initialize%68
+                0x00001634       0x58
+ .text.SERCOM4_USART_Initialize
+                0x00001634       0x58 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+                0x00001634                SERCOM4_USART_Initialize
+
+.text._DRV_USART_RX_PLIB_CallbackHandler%69
+                0x0000168c       0x50
+ .text._DRV_USART_RX_PLIB_CallbackHandler
+                0x0000168c       0x50 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+
+.text.SYS_Tasks%70
+                0x000016dc       0x4c
+ .text.SYS_Tasks
+                0x000016dc       0x4c build/1_freertos_test/production/_ext/605666690/tasks.o
+                0x000016dc                SYS_Tasks
+
+.text%71        0x00001728       0x48
+ .text          0x00001728       0x48 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+
+.text.SYS_Initialize%72
+                0x00001770       0x48
+ .text.SYS_Initialize
+                0x00001770       0x48 build/1_freertos_test/production/_ext/605666690/initialization.o
+                0x00001770                SYS_Initialize
+
+.text.Reset_Handler%73
+                0x000017b8       0x48
+ .text.Reset_Handler
+                0x000017b8       0x48 build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+                0x000017b8                Reset_Handler
+
+.text.APP_PRINT_Tasks%74
+                0x00001800       0x48
+ .text.APP_PRINT_Tasks
+                0x00001800       0x48 build/1_freertos_test/production/_ext/1360937237/app_print.o
+                0x00001800                APP_PRINT_Tasks
+
+.text.xPortPendSVHandler%75
+                0x00001850       0x44
+ .text.xPortPendSVHandler
+                0x00001850       0x44 build/1_freertos_test/production/_ext/1624415188/port.o
+                0x00001850                xPortPendSVHandler
+
+.text.SERCOM4_USART_Read%76
+                0x00001894       0x44
+ .text.SERCOM4_USART_Read
+                0x00001894       0x44 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+                0x00001894                SERCOM4_USART_Read
+
+.text%77        0x000018d8       0x40
+ .text          0x000018d8       0x40 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                0x000018d8                __aeabi_uldivmod
+
+.text.xPortStartScheduler%78
+                0x00001918       0x3c
+ .text.xPortStartScheduler
+                0x00001918       0x3c build/1_freertos_test/production/_ext/1624415188/port.o
+                0x00001918                xPortStartScheduler
+
+.text%79        0x00001954       0x3c
+ .text          0x00001954       0x3c /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+                0x00001954                __clzsi2
+
+.text.PORT_Initialize%80
+                0x00001990       0x38
+ .text.PORT_Initialize
+                0x00001990       0x38 build/1_freertos_test/production/_ext/323570781/plib_port.o
+                0x00001990                PORT_Initialize
+
+.text.vPortStartFirstTask%81
+                0x000019d0       0x34
+ .text.vPortStartFirstTask
+                0x000019d0       0x34 build/1_freertos_test/production/_ext/1624415188/port.o
+
+.text.OSAL_SEM_PostISR%82
+                0x00001a04       0x34
+ .text.OSAL_SEM_PostISR
+                0x00001a04       0x34 build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+                0x00001a04                OSAL_SEM_PostISR
+
+.text.APP_BLINK_Tasks%83
+                0x00001a38       0x30
+ .text.APP_BLINK_Tasks
+                0x00001a38       0x30 build/1_freertos_test/production/_ext/1360937237/app_blink.o
+                0x00001a38                APP_BLINK_Tasks
+
+.text.vListInsert%84
+                0x00001a68       0x2e
+ .text.vListInsert
+                0x00001a68       0x2e build/1_freertos_test/production/_ext/404212886/list.o
+                0x00001a68                vListInsert
+
+.rodata.drvUsart0PlibAPI%85
+                0x00001a98       0x2c
+ .rodata.drvUsart0PlibAPI
+                0x00001a98       0x2c build/1_freertos_test/production/_ext/605666690/initialization.o
+                0x00001a98                drvUsart0PlibAPI
+
+.text.NVIC_Initialize%86
+                0x00001ac4       0x2c
+ .text.NVIC_Initialize
+                0x00001ac4       0x2c build/1_freertos_test/production/_ext/323623932/plib_nvic.o
+                0x00001ac4                NVIC_Initialize
+
+.text.prvResetNextTaskUnblockTime%87
+                0x00001af0       0x2c
+ .text.prvResetNextTaskUnblockTime
+                0x00001af0       0x2c build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.text.SERCOM4_USART_ErrorClear%88
+                0x00001b1c       0x2c
+ .text.SERCOM4_USART_ErrorClear
+                0x00001b1c       0x2c build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+
+.text.vPortSetupTimerInterrupt%89
+                0x00001b48       0x28
+ .text.vPortSetupTimerInterrupt
+                0x00001b48       0x28 build/1_freertos_test/production/_ext/1624415188/port.o
+                0x00001b48                vPortSetupTimerInterrupt
+
+.text.SERCOM4_USART_ReadAbort%90
+                0x00001b70       0x28
+ .text.SERCOM4_USART_ReadAbort
+                0x00001b70       0x28 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+                0x00001b70                SERCOM4_USART_ReadAbort
+
+.text.uxListRemove%91
+                0x00001b98       0x26
+ .text.uxListRemove
+                0x00001b98       0x26 build/1_freertos_test/production/_ext/404212886/list.o
+                0x00001b98                uxListRemove
+
+.text.xQueueCreateCountingSemaphore%92
+                0x00001bbe       0x26
+ .text.xQueueCreateCountingSemaphore
+                0x00001bbe       0x26 build/1_freertos_test/production/_ext/404212886/queue.o
+                0x00001bbe                xQueueCreateCountingSemaphore
+
+.text.xQueueCreateMutex%93
+                0x00001be4       0x24
+ .text.xQueueCreateMutex
+                0x00001be4       0x24 build/1_freertos_test/production/_ext/404212886/queue.o
+                0x00001be4                xQueueCreateMutex
+
+.text.xPortSysTickHandler%94
+                0x00001c08       0x24
+ .text.xPortSysTickHandler
+                0x00001c08       0x24 build/1_freertos_test/production/_ext/1624415188/port.o
+                0x00001c08                xPortSysTickHandler
+
+.rodata.drvUsart0InitData%95
+                0x00001c2c       0x20
+ .rodata.drvUsart0InitData
+                0x00001c2c       0x20 build/1_freertos_test/production/_ext/605666690/initialization.o
+                0x00001c2c                drvUsart0InitData
+
+.text.vTaskDelay%96
+                0x00001c4c       0x20
+ .text.vTaskDelay
+                0x00001c4c       0x20 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+                0x00001c4c                vTaskDelay
+
+.text.pxPortInitialiseStack%97
+                0x00001c6c       0x20
+ .text.pxPortInitialiseStack
+                0x00001c6c       0x20 build/1_freertos_test/production/_ext/1624415188/port.o
+                0x00001c6c                pxPortInitialiseStack
+
+.rodata%98      0x00001c8c       0x20
+ .rodata        0x00001c8c       0x20 build/1_freertos_test/production/_ext/605666690/tasks.o
+
+.text.vTaskPlaceOnEventList%99
+                0x00001cac       0x1c
+ .text.vTaskPlaceOnEventList
+                0x00001cac       0x1c build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+                0x00001cac                vTaskPlaceOnEventList
+
+.text.OSAL_MUTEX_Create%100
+                0x00001cc8       0x1a
+ .text.OSAL_MUTEX_Create
+                0x00001cc8       0x1a build/1_freertos_test/production/_ext/494935552/osal_freertos.o
+                0x00001cc8                OSAL_MUTEX_Create
+
+.rodata.drvUsart0remapParity%101
+                0x00001ce4       0x18
+ .rodata.drvUsart0remapParity
+                0x00001ce4       0x18 build/1_freertos_test/production/_ext/605666690/initialization.o
+                0x00001ce4                drvUsart0remapParity
+
+.text.vTaskInternalSetTimeOutState%102
+                0x00001cfc       0x18
+ .text.vTaskInternalSetTimeOutState
+                0x00001cfc       0x18 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+                0x00001cfc                vTaskInternalSetTimeOutState
+
+.text.vPortYield%103
+                0x00001d14       0x18
+ .text.vPortYield
+                0x00001d14       0x18 build/1_freertos_test/production/_ext/1624415188/port.o
+                0x00001d14                vPortYield
+
+.text.vPortEnterCritical%104
+                0x00001d2c       0x18
+ .text.vPortEnterCritical
+                0x00001d2c       0x18 build/1_freertos_test/production/_ext/1624415188/port.o
+                0x00001d2c                vPortEnterCritical
+
+.text%105       0x00001d44       0x48
+ .text          0x00001d44       0x18 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+                0x00001d44                __aeabi_llsr
+                0x00001d44                __lshrdi3
+ .text          0x00001d5c       0x18 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+                0x00001d5c                __ashldi3
+                0x00001d5c                __aeabi_llsl
+ .text          0x00001d74       0x18 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+                0x00001d74                __clzdi2
+
+.text.vListInitialise%108
+                0x00001d8c       0x16
+ .text.vListInitialise
+                0x00001d8c       0x16 build/1_freertos_test/production/_ext/404212886/list.o
+                0x00001d8c                vListInitialise
+
+.rodata.drvUsart0remapDataWidth%109
+                0x00001da4       0x14
+ .rodata.drvUsart0remapDataWidth
+                0x00001da4       0x14 build/1_freertos_test/production/_ext/605666690/initialization.o
+                0x00001da4                drvUsart0remapDataWidth
+
+.text.vPortExitCritical%110
+                0x00001db8       0x14
+ .text.vPortExitCritical
+                0x00001db8       0x14 build/1_freertos_test/production/_ext/1624415188/port.o
+                0x00001db8                vPortExitCritical
+
+.text.prvTaskExitError%111
+                0x00001dcc       0x12
+ .text.prvTaskExitError
+                0x00001dcc       0x12 build/1_freertos_test/production/_ext/1624415188/port.o
+
+.text.memcpy%112
+                0x00001dde       0x12
+ .text.memcpy   0x00001dde       0x12 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memcpy.o)
+                0x00001dde                memcpy
+
+.text.vTaskSuspendAll%113
+                0x00001df0       0x10
+ .text.vTaskSuspendAll
+                0x00001df0       0x10 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+                0x00001df0                vTaskSuspendAll
+
+.text._DRV_USART_TX_PLIB_CallbackHandler%114
+                0x00001e00       0x10
+ .text._DRV_USART_TX_PLIB_CallbackHandler
+                0x00001e00       0x10 build/1_freertos_test/production/_ext/12196316/drv_usart.o
+
+.text.SERCOM4_USART_ErrorGet%115
+                0x00001e10       0x10
+ .text.SERCOM4_USART_ErrorGet
+                0x00001e10       0x10 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+                0x00001e10                SERCOM4_USART_ErrorGet
+
+.text.SERCOM4_USART_TransmitComplete%116
+                0x00001e20       0x10
+ .text.SERCOM4_USART_TransmitComplete
+                0x00001e20       0x10 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+                0x00001e20                SERCOM4_USART_TransmitComplete
+
+.text.SERCOM4_USART_ReadIsBusy%117
+                0x00001e30       0x10
+ .text.SERCOM4_USART_ReadIsBusy
+                0x00001e30       0x10 build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+                0x00001e30                SERCOM4_USART_ReadIsBusy
+
+.rodata%118     0x00001e40       0x10
+ .rodata        0x00001e40       0x10 build/1_freertos_test/production/_ext/1360937237/app_print.o
+
+.text.memset%119
+                0x00001e50       0x10
+ .text.memset   0x00001e50       0x10 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(memset.o)
+                0x00001e50                memset
+
+.text.main%120  0x00001e60        0xe
+ .text.main     0x00001e60        0xe build/1_freertos_test/production/_ext/1360937237/main.o
+                0x00001e60                main
+
+.text.NVMCTRL_Initialize%121
+                0x00001e70        0xc
+ .text.NVMCTRL_Initialize
+                0x00001e70        0xc build/1_freertos_test/production/_ext/1124830510/plib_nvmctrl.o
+                0x00001e70                NVMCTRL_Initialize
+
+.rodata.drvUsart0remapError%122
+                0x00001e7c        0xc
+ .rodata.drvUsart0remapError
+                0x00001e7c        0xc build/1_freertos_test/production/_ext/605666690/initialization.o
+                0x00001e7c                drvUsart0remapError
+
+.rodata.drvUsart0remapStopBits%123
+                0x00001e88        0xc
+ .rodata.drvUsart0remapStopBits
+                0x00001e88        0xc build/1_freertos_test/production/_ext/605666690/initialization.o
+                0x00001e88                drvUsart0remapStopBits
+
+.text.BSP_Initialize%124
+                0x00001e94        0xc
+ .text.BSP_Initialize
+                0x00001e94        0xc build/1_freertos_test/production/_ext/570142510/bsp.o
+                0x00001e94                BSP_Initialize
+
+.text.vTaskMissedYield%125
+                0x00001ea0        0xc
+ .text.vTaskMissedYield
+                0x00001ea0        0xc build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+                0x00001ea0                vTaskMissedYield
+
+.text.APP_BLINK_Initialize%126
+                0x00001eac        0xc
+ .text.APP_BLINK_Initialize
+                0x00001eac        0xc build/1_freertos_test/production/_ext/1360937237/app_blink.o
+                0x00001eac                APP_BLINK_Initialize
+
+.text.SERCOM4_USART_WriteIsBusy%127
+                0x00001eb8        0xc
+ .text.SERCOM4_USART_WriteIsBusy
+                0x00001eb8        0xc build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+                0x00001eb8                SERCOM4_USART_WriteIsBusy
+
+.text.SERCOM4_USART_WriteCountGet%128
+                0x00001ec4        0xc
+ .text.SERCOM4_USART_WriteCountGet
+                0x00001ec4        0xc build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+                0x00001ec4                SERCOM4_USART_WriteCountGet
+
+.text.SERCOM4_USART_WriteCallbackRegister%129
+                0x00001ed0        0xc
+ .text.SERCOM4_USART_WriteCallbackRegister
+                0x00001ed0        0xc build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+                0x00001ed0                SERCOM4_USART_WriteCallbackRegister
+
+.text.SERCOM4_USART_ReadCountGet%130
+                0x00001edc        0xc
+ .text.SERCOM4_USART_ReadCountGet
+                0x00001edc        0xc build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+                0x00001edc                SERCOM4_USART_ReadCountGet
+
+.text.SERCOM4_USART_ReadCallbackRegister%131
+                0x00001ee8        0xc
+ .text.SERCOM4_USART_ReadCallbackRegister
+                0x00001ee8        0xc build/1_freertos_test/production/_ext/1829038521/plib_sercom4_usart.o
+                0x00001ee8                SERCOM4_USART_ReadCallbackRegister
+
+.text.APP_PRINT_Initialize%132
+                0x00001ef4        0xc
+ .text.APP_PRINT_Initialize
+                0x00001ef4        0xc build/1_freertos_test/production/_ext/1360937237/app_print.o
+                0x00001ef4                APP_PRINT_Initialize
+
+.rodata%133     0x00001848        0x8
+ .rodata        0x00001848        0x8 build/1_freertos_test/production/_ext/404212886/FreeRTOS_tasks.o
+
+.text.ulSetInterruptMaskFromISR%134
+                0x000019c8        0x8
+ .text.ulSetInterruptMaskFromISR
+                0x000019c8        0x8 build/1_freertos_test/production/_ext/1624415188/port.o
+                0x000019c8                ulSetInterruptMaskFromISR
+
+.text._APP_BLINK_Tasks%135
+                0x00001f00        0x8
+ .text._APP_BLINK_Tasks
+                0x00001f00        0x8 build/1_freertos_test/production/_ext/605666690/tasks.o
+                0x00001f00                _APP_BLINK_Tasks
+
+.text._APP_PRINT_Tasks%136
+                0x00001f08        0x8
+ .text._APP_PRINT_Tasks
+                0x00001f08        0x8 build/1_freertos_test/production/_ext/605666690/tasks.o
+                0x00001f08                _APP_PRINT_Tasks
+
+.text.__pic32c_data_initialization%137
+                0x00001f10        0x8
+ .text.__pic32c_data_initialization
+                0x00001f10        0x8 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libpic32c.a(data_init_wrapper.o)
+                0x00001f10                __pic32c_data_initialization
+
+.text.vListInitialiseItem%138
+                0x00001f18        0x6
+ .text.vListInitialiseItem
+                0x00001f18        0x6 build/1_freertos_test/production/_ext/404212886/list.o
+                0x00001f18                vListInitialiseItem
+
+.text.vClearInterruptMaskFromISR%139
+                0x00001f1e        0x6
+ .text.vClearInterruptMaskFromISR
+                0x00001f1e        0x6 build/1_freertos_test/production/_ext/1624415188/port.o
+                0x00001f1e                vClearInterruptMaskFromISR
+
+.text.vApplicationStackOverflowHook%140
+                0x00001f24        0x4
+ .text.vApplicationStackOverflowHook
+                0x00001f24        0x4 build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+                0x00001f24                vApplicationStackOverflowHook
+
+.text.vApplicationMallocFailedHook%141
+                0x00001f28        0x4
+ .text.vApplicationMallocFailedHook
+                0x00001f28        0x4 build/1_freertos_test/production/_ext/605666690/freertos_hooks.o
+                0x00001f28                vApplicationMallocFailedHook
+
+.text%142       0x00001f2c        0x4
+ .text          0x00001f2c        0x4 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x00001f2c                __aeabi_ldiv0
+                0x00001f2c                __aeabi_idiv0
+
+.text.EVSYS_Initialize%143
+                0x00000c4e        0x2
+ .text.EVSYS_Initialize
+                0x00000c4e        0x2 build/1_freertos_test/production/_ext/1450708582/plib_evsys.o
+                0x00000c4e                EVSYS_Initialize
+
+.text.Dummy_Handler%144
+                0x00000f82        0x2
+ .text.Dummy_Handler
+                0x00000f82        0x2 build/1_freertos_test/production/_ext/605666690/interrupts.o
+                0x00000f82                DMAC_Handler
+                0x00000f82                TC2_Handler
+                0x00000f82                AC_Handler
+                0x00000f82                SERCOM1_Handler
+                0x00000f82                TCC1_Handler
+                0x00000f82                SERCOM2_Handler
+                0x00000f82                TCC0_Handler
+                0x00000f82                RTC_Handler
+                0x00000f82                ADC1_Handler
+                0x00000f82                EIC_Handler
+                0x00000f82                WDT_Handler
+                0x00000f82                CAN0_Handler
+                0x00000f82                TC4_Handler
+                0x00000f82                TC1_Handler
+                0x00000f82                TC3_Handler
+                0x00000f82                SDADC_Handler
+                0x00000f82                Dummy_Handler
+                0x00000f82                SERCOM5_Handler
+                0x00000f82                CAN1_Handler
+                0x00000f82                ADC0_Handler
+                0x00000f82                TSENS_Handler
+                0x00000f82                TCC2_Handler
+                0x00000f82                EVSYS_Handler
+                0x00000f82                SERCOM3_Handler
+                0x00000f82                NVMCTRL_Handler
+                0x00000f82                SYSTEM_Handler
+                0x00000f82                SERCOM0_Handler
+                0x00000f82                DAC_Handler
+                0x00000f82                PTC_Handler
+                0x00000f82                FREQM_Handler
+                0x00000f82                TC0_Handler
+
+.text.NonMaskableInt_Handler%145
+                0x0000112e        0x2
+ .text.NonMaskableInt_Handler
+                0x0000112e        0x2 build/1_freertos_test/production/_ext/605666690/exceptions.o
+                0x0000112e                NonMaskableInt_Handler
+
+.text.HardFault_Handler%146
+                0x0000122e        0x2
+ .text.HardFault_Handler
+                0x0000122e        0x2 build/1_freertos_test/production/_ext/605666690/exceptions.o
+                0x0000122e                HardFault_Handler
+
+.text.Dummy_App_Func%147
+                0x0000131e        0x2
+ .text.Dummy_App_Func
+                0x0000131e        0x2 build/1_freertos_test/production/_ext/605666690/startup_xc32.o
+                0x0000131e                __xc32_on_bootstrap
+                0x0000131e                _on_reset
+                0x0000131e                _on_bootstrap
+                0x0000131e                __xc32_on_reset
+                0x0000131e                Dummy_App_Func
+
+.text.vPortFree%148
+                0x00001a96        0x2
+ .text.vPortFree
+                0x00001a96        0x2 build/1_freertos_test/production/_ext/1665200909/heap_1.o
+                0x00001a96                vPortFree
+
+.text.vPortSVCHandler%149
+                0x00001ce2        0x2
+ .text.vPortSVCHandler
+                0x00001ce2        0x2 build/1_freertos_test/production/_ext/1624415188/port.o
+                0x00001ce2                vPortSVCHandler
+
+.text.__dummy%150
+                0x00001da2        0x2
+ .text.__dummy  0x00001da2        0x2 /opt/microchip/xc32/v4.20/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp/libc-musl.a(__libc_start_main.o)
+                0x00001da2                __init_host
+                0x00001da2                __init_stdio
