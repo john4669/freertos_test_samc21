@@ -1,5 +1,5 @@
-build/1_freertos_test/production/_ext/605666690/initialization.o: \
- ../src/config/1_freertos_test/initialization.c \
+build/1_freertos_test/production/_ext/1360937237/app_can_tx.o: \
+ ../src/app_can_tx.c ../src/app_can_tx.h \
  ../src/config/1_freertos_test/configuration.h \
  ../src/config/1_freertos_test/user.h \
  ../src/config/1_freertos_test/device.h \
@@ -90,26 +90,6 @@ build/1_freertos_test/production/_ext/605666690/initialization.o: \
  ../src/config/1_freertos_test/device_cache.h \
  ../src/config/1_freertos_test/toolchain_specifics.h \
  ../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h \
- ../src/config/1_freertos_test/definitions.h \
- ../src/config/1_freertos_test/peripheral/nvmctrl/plib_nvmctrl.h \
- ../src/config/1_freertos_test/device.h \
- ../src/config/1_freertos_test/peripheral/evsys/plib_evsys.h \
- ../src/config/1_freertos_test/driver/usart/drv_usart.h \
- ../src/config/1_freertos_test/system/system.h \
- ../src/config/1_freertos_test/system/system_common.h \
- ../src/config/1_freertos_test/system/system_module.h \
- ../src/config/1_freertos_test/system/system_common.h \
- ../src/config/1_freertos_test/driver/driver.h \
- ../src/config/1_freertos_test/driver/driver_common.h \
- ../src/config/1_freertos_test/driver/usart/drv_usart_definitions.h \
- ../src/config/1_freertos_test/system/int/sys_int.h \
- ../src/config/1_freertos_test/system/int/sys_int_mapping.h \
- ../src/config/1_freertos_test/driver/usart/src/drv_usart_local.h \
- ../src/config/1_freertos_test/driver/usart/drv_usart.h \
- ../src/config/1_freertos_test/osal/osal.h \
- ../src/config/1_freertos_test/configuration.h \
- ../src/config/1_freertos_test/osal/osal_definitions.h \
- ../src/config/1_freertos_test/osal/osal_freertos.h \
  ../src/third_party/rtos/FreeRTOS/Source/include/FreeRTOS.h \
  ../src/config/1_freertos_test/FreeRTOSConfig.h \
  ../src/third_party/rtos/FreeRTOS/Source/include/projdefs.h \
@@ -117,30 +97,14 @@ build/1_freertos_test/production/_ext/605666690/initialization.o: \
  ../src/third_party/rtos/FreeRTOS/Source/include/deprecated_definitions.h \
  ../src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM0/portmacro.h \
  ../src/third_party/rtos/FreeRTOS/Source/include/mpu_wrappers.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/queue.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/task.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/list.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/semphr.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/queue.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/task.h \
- ../src/config/1_freertos_test/peripheral/port/plib_port.h \
- ../src/config/1_freertos_test/peripheral/clock/plib_clock.h \
- ../src/config/1_freertos_test/peripheral/nvic/plib_nvic.h \
- ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom4_usart.h \
- ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom_usart_common.h \
- ../src/config/1_freertos_test/bsp/bsp.h \
  ../src/config/1_freertos_test/peripheral/can/plib_can0.h \
+ ../src/config/1_freertos_test/device.h \
  ../src/config/1_freertos_test/peripheral/can/plib_can_common.h \
- ../src/config/1_freertos_test/system/int/sys_int.h \
- ../src/config/1_freertos_test/osal/osal.h \
- ../src/config/1_freertos_test/system/debug/sys_debug.h \
- ../src/app_blink.h ../src/app_print.h \
- ../src/config/1_freertos_test/peripheral/port/plib_port.h \
- ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom4_usart.h \
- ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom_usart_common.h \
- ../src/app_can_tx.h \
- ../src/config/1_freertos_test/peripheral/can/plib_can0.h \
- ../src/config/1_freertos_test/peripheral/can/plib_can_common.h
+ ../src/config/1_freertos_test/peripheral/can/plib_can_common.h \
+ ../src/third_party/rtos/FreeRTOS/Source/include/task.h \
+ ../src/third_party/rtos/FreeRTOS/Source/include/list.h
+
+../src/app_can_tx.h:
 
 ../src/config/1_freertos_test/configuration.h:
 
@@ -322,46 +286,6 @@ build/1_freertos_test/production/_ext/605666690/initialization.o: \
 
 ../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h:
 
-../src/config/1_freertos_test/definitions.h:
-
-../src/config/1_freertos_test/peripheral/nvmctrl/plib_nvmctrl.h:
-
-../src/config/1_freertos_test/device.h:
-
-../src/config/1_freertos_test/peripheral/evsys/plib_evsys.h:
-
-../src/config/1_freertos_test/driver/usart/drv_usart.h:
-
-../src/config/1_freertos_test/system/system.h:
-
-../src/config/1_freertos_test/system/system_common.h:
-
-../src/config/1_freertos_test/system/system_module.h:
-
-../src/config/1_freertos_test/system/system_common.h:
-
-../src/config/1_freertos_test/driver/driver.h:
-
-../src/config/1_freertos_test/driver/driver_common.h:
-
-../src/config/1_freertos_test/driver/usart/drv_usart_definitions.h:
-
-../src/config/1_freertos_test/system/int/sys_int.h:
-
-../src/config/1_freertos_test/system/int/sys_int_mapping.h:
-
-../src/config/1_freertos_test/driver/usart/src/drv_usart_local.h:
-
-../src/config/1_freertos_test/driver/usart/drv_usart.h:
-
-../src/config/1_freertos_test/osal/osal.h:
-
-../src/config/1_freertos_test/configuration.h:
-
-../src/config/1_freertos_test/osal/osal_definitions.h:
-
-../src/config/1_freertos_test/osal/osal_freertos.h:
-
 ../src/third_party/rtos/FreeRTOS/Source/include/FreeRTOS.h:
 
 ../src/config/1_freertos_test/FreeRTOSConfig.h:
@@ -376,52 +300,14 @@ build/1_freertos_test/production/_ext/605666690/initialization.o: \
 
 ../src/third_party/rtos/FreeRTOS/Source/include/mpu_wrappers.h:
 
-../src/third_party/rtos/FreeRTOS/Source/include/queue.h:
+../src/config/1_freertos_test/peripheral/can/plib_can0.h:
+
+../src/config/1_freertos_test/device.h:
+
+../src/config/1_freertos_test/peripheral/can/plib_can_common.h:
+
+../src/config/1_freertos_test/peripheral/can/plib_can_common.h:
 
 ../src/third_party/rtos/FreeRTOS/Source/include/task.h:
 
 ../src/third_party/rtos/FreeRTOS/Source/include/list.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/semphr.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/queue.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/task.h:
-
-../src/config/1_freertos_test/peripheral/port/plib_port.h:
-
-../src/config/1_freertos_test/peripheral/clock/plib_clock.h:
-
-../src/config/1_freertos_test/peripheral/nvic/plib_nvic.h:
-
-../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom4_usart.h:
-
-../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom_usart_common.h:
-
-../src/config/1_freertos_test/bsp/bsp.h:
-
-../src/config/1_freertos_test/peripheral/can/plib_can0.h:
-
-../src/config/1_freertos_test/peripheral/can/plib_can_common.h:
-
-../src/config/1_freertos_test/system/int/sys_int.h:
-
-../src/config/1_freertos_test/osal/osal.h:
-
-../src/config/1_freertos_test/system/debug/sys_debug.h:
-
-../src/app_blink.h:
-
-../src/app_print.h:
-
-../src/config/1_freertos_test/peripheral/port/plib_port.h:
-
-../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom4_usart.h:
-
-../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom_usart_common.h:
-
-../src/app_can_tx.h:
-
-../src/config/1_freertos_test/peripheral/can/plib_can0.h:
-
-../src/config/1_freertos_test/peripheral/can/plib_can_common.h:

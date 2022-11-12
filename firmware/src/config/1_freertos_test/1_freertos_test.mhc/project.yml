@@ -13,13 +13,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: null
-- generatedChecksum: 282736D81808E1A8B6394FDB05FD0422
+- generatedChecksum: 9C020F65B993E681F35F025142D7F7BC
+  logicalPath: ''
+  name: app_can_tx.c
+  physicalPath: ../..
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: 9C020F65B993E681F35F025142D7F7BC
+- generatedChecksum: null
   logicalPath: ''
   name: app_print.c
   physicalPath: ../..
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 282736D81808E1A8B6394FDB05FD0422
+  userChecksum: null
 - generatedChecksum: 1A81761E8B71DEB8D8FBEA31DBFD4738
   logicalPath: config/1_freertos_test/bsp
   name: bsp.c
@@ -76,13 +83,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 31CEE4650E24C72160696DF93B55B48D
-- generatedChecksum: 2DC12392B89197F002EB4415A0DCEC63
+- generatedChecksum: 8CAA1B1230C49B48A9D2B753360AD932
   logicalPath: config/1_freertos_test
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 2DC12392B89197F002EB4415A0DCEC63
+  userChecksum: 8CAA1B1230C49B48A9D2B753360AD932
 - generatedChecksum: 5832A731417CE59869637EDB48994DDE
   logicalPath: config/1_freertos_test
   name: interrupts.c
@@ -118,13 +125,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 8FDD6248506F28B32C4F5FD9AA0D9C6F
-- generatedChecksum: 6C0598C2A13E96EDC00287A2F0B37F03
+- generatedChecksum: 42620ADE7D23322831E7AE0EDA5F2F6D
+  logicalPath: config/1_freertos_test/peripheral/can
+  name: plib_can0.c
+  physicalPath: peripheral/can
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: 42620ADE7D23322831E7AE0EDA5F2F6D
+- generatedChecksum: 39680D35FDDE927E39B2EF6D4B0F8A9C
   logicalPath: config/1_freertos_test/peripheral/clock
   name: plib_clock.c
   physicalPath: peripheral/clock
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 6C0598C2A13E96EDC00287A2F0B37F03
+  userChecksum: 39680D35FDDE927E39B2EF6D4B0F8A9C
 - generatedChecksum: C3ECDED3D6301DB0DE622293ED615D21
   logicalPath: config/1_freertos_test/peripheral/evsys
   name: plib_evsys.c
@@ -195,13 +209,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 02C3C1B519E59992810626BB6098CF56
-- generatedChecksum: 25751FFD2480FAC983FB87F5984CF093
+- generatedChecksum: B01AA6D1B632B911B072225032E2B897
   logicalPath: config/1_freertos_test
   name: tasks.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 25751FFD2480FAC983FB87F5984CF093
+  userChecksum: B01AA6D1B632B911B072225032E2B897
 - generatedChecksum: 2811D7C532CEFF995F8697FCED6A1C34
   logicalPath: FreeRTOS/Source
   name: timers.c
@@ -272,13 +286,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: null
-- generatedChecksum: FAC0FC2AFE7D3DF69AF74873036FDF9C
+- generatedChecksum: 52F74B7A480207ED25B2B4506F202953
+  logicalPath: ''
+  name: app_can_tx.h
+  physicalPath: ../..
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 52F74B7A480207ED25B2B4506F202953
+- generatedChecksum: null
   logicalPath: ''
   name: app_print.h
   physicalPath: ../..
   security: NON_SECURE
   type: HEADER
-  userChecksum: FAC0FC2AFE7D3DF69AF74873036FDF9C
+  userChecksum: null
 - generatedChecksum: 581126D4EF77832BDAC329EA21F7F61C
   logicalPath: config/1_freertos_test/bsp
   name: bsp.h
@@ -412,13 +433,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 961EBA81B5199F24F730AF5EA5785287
-- generatedChecksum: CB2466C24D6D026F2DB7F1B382B87150
+- generatedChecksum: C1EA5BAAED49822867FE4DF6A06973D7
   logicalPath: config/1_freertos_test
   name: definitions.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: CB2466C24D6D026F2DB7F1B382B87150
+  userChecksum: C1EA5BAAED49822867FE4DF6A06973D7
 - generatedChecksum: ACB7AD12FD525895ABA47C26F4F9A683
   logicalPath: FreeRTOS/Source/include
   name: deprecated_definitions.h
@@ -755,6 +776,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 7BAC2ACF0EF5F7BBEE2F293A4D79B204
+- generatedChecksum: 1E5D986F30F0C3BF36881C326288A053
+  logicalPath: config/1_freertos_test/peripheral/can
+  name: plib_can0.h
+  physicalPath: peripheral/can
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 1E5D986F30F0C3BF36881C326288A053
+- generatedChecksum: D06D540135EFEB222600B9534263DB14
+  logicalPath: config/1_freertos_test/peripheral/can
+  name: plib_can_common.h
+  physicalPath: peripheral/can
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: D06D540135EFEB222600B9534263DB14
 - generatedChecksum: 0416F129713FDF989ACC1FC57065125C
   logicalPath: config/1_freertos_test/peripheral/clock
   name: plib_clock.h

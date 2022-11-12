@@ -188,8 +188,10 @@ void SYS_Initialize ( void* data )
 
     EVSYS_Initialize();
 
-	BSP_Initialize();
     SERCOM4_USART_Initialize();
+
+	BSP_Initialize();
+    CAN0_Initialize();
 
 
     sysObj.drvUsart0 = DRV_USART_Initialize(DRV_USART_INDEX_0, (SYS_MODULE_INIT *)&drvUsart0InitData);
@@ -199,6 +201,7 @@ void SYS_Initialize ( void* data )
 
     APP_BLINK_Initialize();
     APP_PRINT_Initialize();
+    APP_CAN_TX_Initialize();
 
 
     NVIC_Initialize();

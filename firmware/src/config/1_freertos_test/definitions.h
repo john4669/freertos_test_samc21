@@ -54,8 +54,9 @@
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
-#include "bsp/bsp.h"
 #include "peripheral/sercom/usart/plib_sercom4_usart.h"
+#include "bsp/bsp.h"
+#include "peripheral/can/plib_can0.h"
 #include "FreeRTOS.h"
 #include "task.h"
 #include "system/int/sys_int.h"
@@ -63,6 +64,7 @@
 #include "system/debug/sys_debug.h"
 #include "app_blink.h"
 #include "app_print.h"
+#include "app_can_tx.h"
 
 
 

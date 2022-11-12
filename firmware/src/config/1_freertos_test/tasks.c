@@ -79,6 +79,16 @@ void _APP_PRINT_Tasks(  void *pvParameters  )
         APP_PRINT_Tasks();
     }
 }
+/* Handle for the APP_CAN_TX_Tasks. */
+TaskHandle_t xAPP_CAN_TX_Tasks;
+
+void _APP_CAN_TX_Tasks(  void *pvParameters  )
+{   
+    while(1)
+    {
+        APP_CAN_TX_Tasks();
+    }
+}
 
 
 
@@ -123,6 +133,14 @@ void SYS_Tasks ( void )
                 NULL,
                 1,
                 &xAPP_PRINT_Tasks);
+
+    /* Create OS Thread for APP_CAN_TX_Tasks. */
+    xTaskCreate((TaskFunction_t) _APP_CAN_TX_Tasks,
+                "APP_CAN_TX_Tasks",
+                128,
+                NULL,
+                1,
+                &xAPP_CAN_TX_Tasks);
 
 
 

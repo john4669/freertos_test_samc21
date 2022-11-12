@@ -5,7 +5,7 @@
     Microchip Technology Inc.
 
   File Name:
-    app_print.h
+    app_can_tx.h
 
   Summary:
     This header file provides prototypes and definitions for the application.
@@ -13,13 +13,13 @@
   Description:
     This header file provides function prototypes and data type definitions for
     the application.  Some of these are required by the system (such as the
-    "APP_PRINT_Initialize" and "APP_PRINT_Tasks" prototypes) and some of them are only used
-    internally by the application (such as the "APP_PRINT_STATES" definition).  Both
+    "APP_CAN_TX_Initialize" and "APP_CAN_TX_Tasks" prototypes) and some of them are only used
+    internally by the application (such as the "APP_CAN_TX_STATES" definition).  Both
     are defined here for convenience.
 *******************************************************************************/
 
-#ifndef _APP_PRINT_H
-#define _APP_PRINT_H
+#ifndef _APP_CAN_TX_H
+#define _APP_CAN_TX_H
 
 // *****************************************************************************
 // *****************************************************************************
@@ -35,9 +35,8 @@
 
 // Added after code generation
 #include "FreeRTOS.h"
-#include "peripheral/port/plib_port.h"
-#include "peripheral/sercom/usart/plib_sercom4_usart.h"
-#include "peripheral/sercom/usart/plib_sercom_usart_common.h"
+#include "peripheral/can/plib_can0.h"
+#include "peripheral/can/plib_can_common.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -67,11 +66,11 @@ extern "C" {
 typedef enum
 {
     /* Application's state machine's initial state. */
-    APP_PRINT_STATE_INIT=0,
-    APP_PRINT_STATE_SERVICE_TASKS,
+    APP_CAN_TX_STATE_INIT=0,
+    APP_CAN_TX_STATE_SERVICE_TASKS,
     /* TODO: Define states used by the application state machine. */
 
-} APP_PRINT_STATES;
+} APP_CAN_TX_STATES;
 
 
 // *****************************************************************************
@@ -90,11 +89,11 @@ typedef enum
 typedef struct
 {
     /* The application's current state */
-    APP_PRINT_STATES state;
+    APP_CAN_TX_STATES state;
 
     /* TODO: Define any additional data used by the application. */
 
-} APP_PRINT_DATA;
+} APP_CAN_TX_DATA;
 
 // *****************************************************************************
 // *****************************************************************************
@@ -112,7 +111,7 @@ typedef struct
 
 /*******************************************************************************
   Function:
-    void APP_PRINT_Initialize ( void )
+    void APP_CAN_TX_Initialize ( void )
 
   Summary:
      MPLAB Harmony application initialization routine.
@@ -120,7 +119,7 @@ typedef struct
   Description:
     This function initializes the Harmony application.  It places the
     application in its initial state and prepares it to run so that its
-    APP_PRINT_Tasks function can be called.
+    APP_CAN_TX_Tasks function can be called.
 
   Precondition:
     All other system initialization routines should be called before calling
@@ -134,19 +133,19 @@ typedef struct
 
   Example:
     <code>
-    APP_PRINT_Initialize();
+    APP_CAN_TX_Initialize();
     </code>
 
   Remarks:
     This routine must be called from the SYS_Initialize function.
 */
 
-void APP_PRINT_Initialize ( void );
+void APP_CAN_TX_Initialize ( void );
 
 
 /*******************************************************************************
   Function:
-    void APP_PRINT_Tasks ( void )
+    void APP_CAN_TX_Tasks ( void )
 
   Summary:
     MPLAB Harmony Demo application tasks function
@@ -167,14 +166,14 @@ void APP_PRINT_Initialize ( void );
 
   Example:
     <code>
-    APP_PRINT_Tasks();
+    APP_CAN_TX_Tasks();
     </code>
 
   Remarks:
     This routine must be called from SYS_Tasks() routine.
  */
 
-void APP_PRINT_Tasks( void );
+void APP_CAN_TX_Tasks( void );
 
 //DOM-IGNORE-BEGIN
 #ifdef __cplusplus
@@ -182,7 +181,7 @@ void APP_PRINT_Tasks( void );
 #endif
 //DOM-IGNORE-END
 
-#endif /* _APP_PRINT_H */
+#endif /* _APP_CAN_TX_H */
 
 /*******************************************************************************
  End of File

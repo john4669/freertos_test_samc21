@@ -101,6 +101,7 @@ build/1_freertos_test/production/_ext/1360937237/app_print.o: \
  ../src/config/1_freertos_test/device.h \
  ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom4_usart.h \
  ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom_usart_common.h \
+ ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom_usart_common.h \
  ../src/third_party/rtos/FreeRTOS/Source/include/task.h \
  ../src/third_party/rtos/FreeRTOS/Source/include/list.h
 
@@ -305,6 +306,8 @@ build/1_freertos_test/production/_ext/1360937237/app_print.o: \
 ../src/config/1_freertos_test/device.h:
 
 ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom4_usart.h:
+
+../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom_usart_common.h:
 
 ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom_usart_common.h:
 

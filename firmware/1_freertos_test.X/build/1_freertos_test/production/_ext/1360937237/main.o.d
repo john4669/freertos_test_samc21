@@ -124,15 +124,21 @@ build/1_freertos_test/production/_ext/1360937237/main.o: ../src/main.c \
  ../src/config/1_freertos_test/peripheral/port/plib_port.h \
  ../src/config/1_freertos_test/peripheral/clock/plib_clock.h \
  ../src/config/1_freertos_test/peripheral/nvic/plib_nvic.h \
- ../src/config/1_freertos_test/bsp/bsp.h \
  ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom4_usart.h \
  ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom_usart_common.h \
+ ../src/config/1_freertos_test/bsp/bsp.h \
+ ../src/config/1_freertos_test/peripheral/can/plib_can0.h \
+ ../src/config/1_freertos_test/peripheral/can/plib_can_common.h \
  ../src/config/1_freertos_test/system/int/sys_int.h \
  ../src/config/1_freertos_test/osal/osal.h \
  ../src/config/1_freertos_test/system/debug/sys_debug.h \
  ../src/app_blink.h ../src/app_print.h \
  ../src/config/1_freertos_test/peripheral/port/plib_port.h \
- ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom4_usart.h
+ ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom4_usart.h \
+ ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom_usart_common.h \
+ ../src/app_can_tx.h \
+ ../src/config/1_freertos_test/peripheral/can/plib_can0.h \
+ ../src/config/1_freertos_test/peripheral/can/plib_can_common.h
 
 ../src/config/1_freertos_test/definitions.h:
 
@@ -384,11 +390,15 @@ build/1_freertos_test/production/_ext/1360937237/main.o: ../src/main.c \
 
 ../src/config/1_freertos_test/peripheral/nvic/plib_nvic.h:
 
-../src/config/1_freertos_test/bsp/bsp.h:
-
 ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom4_usart.h:
 
 ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom_usart_common.h:
+
+../src/config/1_freertos_test/bsp/bsp.h:
+
+../src/config/1_freertos_test/peripheral/can/plib_can0.h:
+
+../src/config/1_freertos_test/peripheral/can/plib_can_common.h:
 
 ../src/config/1_freertos_test/system/int/sys_int.h:
 
@@ -403,3 +413,11 @@ build/1_freertos_test/production/_ext/1360937237/main.o: ../src/main.c \
 ../src/config/1_freertos_test/peripheral/port/plib_port.h:
 
 ../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom4_usart.h:
+
+../src/config/1_freertos_test/peripheral/sercom/usart/plib_sercom_usart_common.h:
+
+../src/app_can_tx.h:
+
+../src/config/1_freertos_test/peripheral/can/plib_can0.h:
+
+../src/config/1_freertos_test/peripheral/can/plib_can_common.h:

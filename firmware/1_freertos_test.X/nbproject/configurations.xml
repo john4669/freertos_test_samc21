@@ -23,6 +23,10 @@
             <itemPath>../src/config/1_freertos_test/osal/osal_freertos.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="f7" displayName="can" projectFiles="true">
+              <itemPath>../src/config/1_freertos_test/peripheral/can/plib_can_common.h</itemPath>
+              <itemPath>../src/config/1_freertos_test/peripheral/can/plib_can0.h</itemPath>
+            </logicalFolder>
             <logicalFolder name="f4" displayName="clock" projectFiles="true">
               <itemPath>../src/config/1_freertos_test/peripheral/clock/plib_clock.h</itemPath>
             </logicalFolder>
@@ -206,6 +210,7 @@
       </logicalFolder>
       <itemPath>../src/app_blink.h</itemPath>
       <itemPath>../src/app_print.h</itemPath>
+      <itemPath>../src/app_can_tx.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -234,6 +239,9 @@
             <itemPath>../src/config/1_freertos_test/osal/osal_freertos.c</itemPath>
           </logicalFolder>
           <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="f7" displayName="can" projectFiles="true">
+              <itemPath>../src/config/1_freertos_test/peripheral/can/plib_can0.c</itemPath>
+            </logicalFolder>
             <logicalFolder name="f4" displayName="clock" projectFiles="true">
               <itemPath>../src/config/1_freertos_test/peripheral/clock/plib_clock.c</itemPath>
             </logicalFolder>
@@ -296,11 +304,13 @@
       <itemPath>../src/main.c</itemPath>
       <itemPath>../src/app_blink.c</itemPath>
       <itemPath>../src/app_print.c</itemPath>
+      <itemPath>../src/app_can_tx.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
       <logicalFolder name="f1" displayName="1_freertos_test.mhc" projectFiles="true">
+        <itemPath>../src/config/1_freertos_test/1_freertos_test.mhc/can0.yml</itemPath>
         <itemPath>../src/config/1_freertos_test/1_freertos_test.mhc/FreeRTOS.yml</itemPath>
         <itemPath>../src/config/1_freertos_test/1_freertos_test.mhc/BSP_SAM_C21_Xplained_Pro.yml</itemPath>
         <itemPath>../src/config/1_freertos_test/1_freertos_test.mhc/evsys.yml</itemPath>
@@ -1185,6 +1195,8 @@
         <property key="periphComp5.gte" value="gt"/>
         <property key="periphComp6.gte" value="gt"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="/home/john/HarmonyProjects/1_freertos_test/firmware/1_freertos_test.X/debug/1_freertos_test/1_freertos_test_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"
